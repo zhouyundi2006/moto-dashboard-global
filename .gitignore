@@ -19,3 +19,6 @@ admin/
 
 # 系统文件
 .DS_Store
+
+# Node toolchain
+node_modules/

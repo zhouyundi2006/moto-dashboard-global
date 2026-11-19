@@ -1,0 +1,27 @@
+{
+  "name": "moto-dashboard-global",
+  "version": "1.0.0",
+  "description": "Global 200cc+ motorcycle brand landscape",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/app.ts --bundle --minify --format=iife --target=es2019 --outfile=dist/app.js",
+    "typecheck": "tsc --noEmit",
+    "site": "python3 build_site.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhouyundi2006/moto-dashboard-global.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhouyundi2006/moto-dashboard-global/issues"
+  },
+  "homepage": "https://github.com/zhouyundi2006/moto-dashboard-global#readme",
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}

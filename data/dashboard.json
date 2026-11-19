@@ -24,8 +24,8 @@
     "modelCountAll": 255,
     "parallelBrandCount": 0,
     "parallelModelCount": 0,
-    "logoCount": 0,
-    "logoMissing": 34,
+    "logoCount": 31,
+    "logoMissing": 3,
     "byCategory": {
       "Japanese": 4,
       "European": 16,
@@ -117,9 +117,9 @@
       "marketStatus": "official",
       "website": "https://www.honda.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/honda.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -333,6 +333,7 @@
         "https://www.honda.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 17
     },
     {
@@ -346,9 +347,9 @@
       "marketStatus": "official",
       "website": "https://www.yamaha-motor.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/yamaha.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -562,6 +563,7 @@
         "https://www.yamaha-motor.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 17
     },
     {
@@ -575,9 +577,9 @@
       "marketStatus": "official",
       "website": "https://www.globalsuzuki.com/motorcycle/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/suzuki.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -767,6 +769,7 @@
         "https://www.globalsuzuki.com/motorcycle/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 15
     },
     {
@@ -780,9 +783,9 @@
       "marketStatus": "official",
       "website": "https://www.kawasaki.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/kawasaki.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -1008,6 +1011,7 @@
         "https://www.kawasaki.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 18
     },
     {
@@ -1021,9 +1025,9 @@
       "marketStatus": "official",
       "website": "https://www.bmw-motorrad.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/bmw.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -1201,6 +1205,7 @@
         "https://www.bmw-motorrad.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 14
     },
     {
@@ -1214,9 +1219,9 @@
       "marketStatus": "official",
       "website": "https://www.ducati.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/ducati.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -1358,6 +1363,7 @@
         "https://www.ducati.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 11
     },
     {
@@ -1371,9 +1377,9 @@
       "marketStatus": "official",
       "website": "https://www.triumphmotorcycles.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/triumph.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -1563,6 +1569,7 @@
         "https://www.triumphmotorcycles.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 15
     },
     {
@@ -1576,9 +1583,9 @@
       "marketStatus": "official",
       "website": "https://www.ktm.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/ktm.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -1756,6 +1763,7 @@
         "https://www.ktm.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 14
     },
     {
@@ -1769,9 +1777,9 @@
       "marketStatus": "official",
       "website": "https://www.husqvarna-motorcycles.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/husqvarna.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -1889,6 +1897,7 @@
         "https://www.husqvarna-motorcycles.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 9
     },
     {
@@ -1902,9 +1911,9 @@
       "marketStatus": "official",
       "website": "https://www.aprilia.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/aprilia.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -2010,6 +2019,7 @@
         "https://www.aprilia.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 8
     },
     {
@@ -2023,9 +2033,9 @@
       "marketStatus": "official",
       "website": "https://www.motoguzzi.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/motoguzzi.png",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -2107,6 +2117,7 @@
         "https://www.motoguzzi.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 6
     },
     {
@@ -2120,9 +2131,9 @@
       "marketStatus": "official",
       "website": "https://www.mvagusta.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/mv.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -2228,6 +2239,7 @@
         "https://www.mvagusta.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 8
     },
     {
@@ -2241,9 +2253,9 @@
       "marketStatus": "official",
       "website": "https://www.benelli.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/benelli.svg",
+        "status": "ok",
+        "source": "Official site",
         "note": null
       },
       "models": [
@@ -2349,6 +2361,7 @@
         "https://www.benelli.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 8
     },
     {
@@ -2362,9 +2375,9 @@
       "marketStatus": "official",
       "website": "https://www.motomorini.eu/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/morini.png",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -2422,6 +2435,7 @@
         "https://www.motomorini.eu/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 4
     },
     {
@@ -2435,9 +2449,9 @@
       "marketStatus": "official",
       "website": "https://www.fanticmotor.it/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/fantic.jpg",
+        "status": "ok",
+        "source": "Official site",
         "note": null
       },
       "models": [
@@ -2507,6 +2521,7 @@
         "https://www.fanticmotor.it/"
       ],
       "note": null,
+      "logoDark": true,
       "modelCount": 5
     },
     {
@@ -2520,9 +2535,9 @@
       "marketStatus": "official",
       "website": "https://www.betamotor.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/beta.png",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -2628,6 +2643,7 @@
         "https://www.betamotor.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 8
     },
     {
@@ -2641,9 +2657,9 @@
       "marketStatus": "official",
       "website": "https://www.sherco.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/sherco.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -2725,6 +2741,7 @@
         "https://www.sherco.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 6
     },
     {
@@ -2738,9 +2755,9 @@
       "marketStatus": "official",
       "website": "https://www.nortonmotorcycles.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/norton.jpg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -2786,6 +2803,7 @@
         "https://www.nortonmotorcycles.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 3
     },
     {
@@ -2799,9 +2817,9 @@
       "marketStatus": "official",
       "website": "https://www.bsamotorcycles.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/bsa.png",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -2835,6 +2853,7 @@
         "https://www.bsamotorcycles.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 2
     },
     {
@@ -2848,9 +2867,9 @@
       "marketStatus": "official",
       "website": "https://www.harley-davidson.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/harley.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -3016,6 +3035,7 @@
         "https://www.harley-davidson.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 13
     },
     {
@@ -3029,9 +3049,9 @@
       "marketStatus": "official",
       "website": "https://www.indianmotorcycle.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/indian.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -3149,6 +3169,7 @@
         "https://www.indianmotorcycle.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 9
     },
     {
@@ -3165,7 +3186,7 @@
         "file": null,
         "status": "missing",
         "source": null,
-        "note": null
+        "note": "Wordmark"
       },
       "models": [
         {
@@ -3210,6 +3231,7 @@
         "https://www.buellmotorcycle.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 3
     },
     {
@@ -3223,9 +3245,9 @@
       "marketStatus": "official",
       "website": "https://janusmotorcycles.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/janus.png",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -3259,6 +3281,7 @@
         "https://janusmotorcycles.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 2
     },
     {
@@ -3272,9 +3295,9 @@
       "marketStatus": "official",
       "website": "https://archmotorcycle.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/arch.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -3308,6 +3331,7 @@
         "https://archmotorcycle.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 2
     },
     {
@@ -3321,9 +3345,9 @@
       "marketStatus": "official",
       "website": "https://www.royalenfield.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/royalenfield.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -3477,6 +3501,7 @@
         "https://www.royalenfield.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 12
     },
     {
@@ -3490,9 +3515,9 @@
       "marketStatus": "official",
       "website": "https://www.heromotocorp.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/hero.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -3538,6 +3563,7 @@
         "https://www.heromotocorp.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 3
     },
     {
@@ -3551,9 +3577,9 @@
       "marketStatus": "official",
       "website": "https://www.bajajauto.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/bajaj.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -3599,6 +3625,7 @@
         "https://www.bajajauto.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 3
     },
     {
@@ -3615,7 +3642,7 @@
         "file": null,
         "status": "missing",
         "source": null,
-        "note": null
+        "note": "Wordmark"
       },
       "models": [
         {
@@ -3660,6 +3687,7 @@
         "https://www.tvsmotor.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 3
     },
     {
@@ -3676,7 +3704,7 @@
         "file": null,
         "status": "missing",
         "source": null,
-        "note": null
+        "note": "Wordmark"
       },
       "models": [
         {
@@ -3733,6 +3761,7 @@
         "https://www.jawamotorcycles.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 4
     },
     {
@@ -3746,9 +3775,9 @@
       "marketStatus": "official",
       "website": "https://www.kymco.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/kymco.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -3806,6 +3835,7 @@
         "https://www.kymco.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 4
     },
     {
@@ -3819,9 +3849,9 @@
       "marketStatus": "official",
       "website": "https://www.sym-global.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/sym.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -3879,6 +3909,7 @@
         "https://www.sym-global.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 4
     },
     {
@@ -3892,9 +3923,9 @@
       "marketStatus": "official",
       "website": "https://www.pgo.com.tw/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/pgo.png",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -3916,6 +3947,7 @@
         "https://www.pgo.com.tw/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 1
     },
     {
@@ -3929,9 +3961,9 @@
       "marketStatus": "official",
       "website": "https://www.krmotors.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/hyosung.svg",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -3965,6 +3997,7 @@
         "https://www.krmotors.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 2
     },
     {
@@ -3978,9 +4011,9 @@
       "marketStatus": "official",
       "website": "https://www.imz-ural.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
+        "file": "assets/logos/ural.png",
+        "status": "ok",
+        "source": "Wikimedia Commons",
         "note": null
       },
       "models": [
@@ -4014,6 +4047,7 @@
         "https://www.imz-ural.com/"
       ],
       "note": null,
+      "logoDark": false,
       "modelCount": 2
     }
   ]

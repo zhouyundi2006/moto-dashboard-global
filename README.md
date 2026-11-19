@@ -18,7 +18,10 @@ Live site: <https://zhouyundi2006.github.io/moto-dashboard-global/>
 ## Repository layout
 
 ```
-index.html                 single-page site (styles and logic inlined)
+index.html                 single-page site (markup and styles)
+src/app.ts                 front-end logic (TypeScript), bundled to dist/app.js
+src/types.ts               data interfaces for the dashboard payload
+dist/app.js                committed bundle loaded by index.html
 build_global.py            validates data/global_brands.json and builds data/dashboard.js / dashboard.json
 build_site.py              assembles the publishable site: _site/index.html + data + brand/*.html + sitemap.xml + robots.txt
 data/global_brands.json    hand-maintained source data (the only file to edit)
@@ -29,6 +32,16 @@ assets/favicon.svg         site icon
 stats_server.py            optional visit-stats backend (Flask + SQLite)
 .github/workflows/pages.yml  validate + publish to GitHub Pages
 ```
+
+## Front-end build
+
+```bash
+npm install
+npm run typecheck   # tsc --noEmit
+npm run build       # esbuild -> dist/app.js (committed, so Pages needs no build step)
+```
+
+`dist/app.js` is committed deliberately: the Pages workflow stays Python-only and the site keeps working even if the Node toolchain is unavailable.
 
 ## Data pipeline
 

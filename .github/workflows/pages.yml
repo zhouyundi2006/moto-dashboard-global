@@ -22,6 +22,16 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Build the TypeScript bundle
+        run: |
+          set -e
+          npm ci
+          npm run typecheck
+          npm run build
+          test -f dist/app.js
 
       # 发布前先跑一遍数据校验：缺 cc、价格解析不了、型号重名、来源缺失都会让构建失败
       - name: Validate data
