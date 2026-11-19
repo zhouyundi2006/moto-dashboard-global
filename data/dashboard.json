@@ -20,8 +20,8 @@
   "stats": {
     "brandCount": 34,
     "brandCountWithModels": 34,
-    "modelCount": 255,
-    "modelCountAll": 255,
+    "modelCount": 278,
+    "modelCountAll": 278,
     "parallelBrandCount": 0,
     "parallelModelCount": 0,
     "logoCount": 31,
@@ -33,26 +33,26 @@
       "Asian other": 9
     },
     "byCategoryModels": {
-      "Japanese": 67,
-      "European": 123,
+      "Japanese": 84,
+      "European": 129,
       "American": 29,
       "Asian other": 36
     },
     "byBucket": {
-      "200-399cc": 58,
-      "400-699cc": 75,
-      "700-999cc": 60,
-      "1000cc+": 62
+      "200-399cc": 63,
+      "400-699cc": 82,
+      "700-999cc": 69,
+      "1000cc+": 64
     },
     "byType": {
-      "Sport": 32,
-      "Naked": 56,
-      "Cruiser": 32,
-      "ADV": 37,
-      "Scooter": 16,
-      "Retro": 36,
-      "Touring": 16,
-      "Off-road": 22,
+      "Sport": 34,
+      "Naked": 57,
+      "Cruiser": 33,
+      "ADV": 39,
+      "Scooter": 19,
+      "Retro": 42,
+      "Touring": 18,
+      "Off-road": 28,
       "Other": 8
     }
   },
@@ -68,14 +68,14 @@
       },
       {
         "label": "Models listed",
-        "value": "255",
+        "value": "278",
         "unit": "",
         "delta": "",
         "note": "200cc and above · official line-ups"
       },
       {
         "label": "Adventure models",
-        "value": "37",
+        "value": "39",
         "unit": "",
         "delta": "",
         "note": "ADV body type across all brands"
@@ -89,17 +89,17 @@
       }
     ],
     "leaders250": [
-      "Kawasaki",
       "Honda",
       "Yamaha",
-      "Suzuki",
-      "Triumph"
+      "Triumph",
+      "Kawasaki",
+      "Suzuki"
     ],
     "leaders500": [
       "Harley-Davidson",
+      "Triumph",
       "BMW Motorrad",
       "Indian Motorcycle",
-      "Triumph",
       "Honda"
     ],
     "source": "compiled from official manufacturer line-ups",
@@ -326,6 +326,138 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "CB1000F",
+          "cc": 999,
+          "type": "Naked",
+          "source": "https://www.honda.co.uk/motorcycles/range/street/cb1000f/overview.html",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "CBR600RR",
+          "cc": 599,
+          "type": "Sport",
+          "source": "https://www.honda.co.uk/motorcycles/range/super-sport/cbr600rr/overview.html",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "CL500",
+          "cc": 471,
+          "type": "Retro",
+          "source": "https://www.honda.co.uk/motorcycles/range/street/cl500/overview.html",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "GB350S",
+          "cc": 348,
+          "type": "Retro",
+          "source": "https://www.honda.co.uk/motorcycles/range/street/gb350s/overview.html",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "NC750X",
+          "cc": 745,
+          "type": "ADV",
+          "source": "https://www.honda.co.uk/motorcycles/range/adventure/nc750x/overview.html",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Forza 750",
+          "cc": 745,
+          "type": "Scooter",
+          "source": "https://www.honda.co.uk/motorcycles/range/scooter/forza-750/overview.html",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "CRF300L",
+          "cc": 286,
+          "type": "Off-road",
+          "source": "https://www.honda.co.uk/motorcycles/range/adventure/crf300l/overview.html",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "CRF300 Rally",
+          "cc": 286,
+          "type": "Off-road",
+          "source": "https://www.honda.co.uk/motorcycles/range/adventure/crf300-rally/overview.html",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "CRF450R",
+          "cc": 449,
+          "type": "Off-road",
+          "source": "https://www.honda.co.uk/motorcycles/range/off-road/crf450r/overview.html",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "CRF250R",
+          "cc": 249,
+          "type": "Off-road",
+          "source": "https://www.honda.co.uk/motorcycles/range/off-road/crf250r/overview.html",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "SH350i",
+          "cc": 330,
+          "type": "Scooter",
+          "source": "https://www.honda.co.uk/motorcycles/range/scooter/sh350i/overview.html",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -334,7 +466,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 17
+      "modelCount": 28
     },
     {
       "id": "yamaha",
@@ -556,6 +688,78 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "XSR900 GP",
+          "cc": 890,
+          "type": "Retro",
+          "source": "https://www.yamaha-motor.eu/en/products/motorcycles/sport-heritage/xsr900-gp",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "R9",
+          "cc": 890,
+          "type": "Sport",
+          "source": "https://www.yamaha-motor.eu/en/products/motorcycles/supersport/r9",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "WR450F",
+          "cc": 450,
+          "type": "Off-road",
+          "source": "https://www.yamaha-motor.eu/en/products/motorcycles/off-road/wr450f",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "YZ450F",
+          "cc": 450,
+          "type": "Off-road",
+          "source": "https://www.yamaha-motor.eu/en/products/motorcycles/off-road/yz450f",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "RW700",
+          "cc": 689,
+          "type": "Scooter",
+          "source": "https://www.yamaha-motor.eu/en/products/motorcycles/adventure/rw700",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Tracer 7 GT",
+          "cc": 689,
+          "type": "Touring",
+          "source": "https://www.yamaha-motor.eu/en/products/motorcycles/sport-touring/tracer-7-gt",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -564,7 +768,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 17
+      "modelCount": 23
     },
     {
       "id": "suzuki",
@@ -1562,6 +1766,78 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "Bonneville T100",
+          "cc": 900,
+          "type": "Retro",
+          "source": "https://www.triumphmotorcycles.com/motorcycles/classic/bonneville-t100",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Speedmaster",
+          "cc": 1200,
+          "type": "Cruiser",
+          "source": "https://www.triumphmotorcycles.com/motorcycles/classic/bonneville-speedmaster",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Scrambler 900",
+          "cc": 900,
+          "type": "Retro",
+          "source": "https://www.triumphmotorcycles.com/motorcycles/classic/bonneville-scrambler-900",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Thruxton RS",
+          "cc": 1200,
+          "type": "Retro",
+          "source": "https://www.triumphmotorcycles.com/motorcycles/classic/thruxton-rs",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Tiger 850 Sport",
+          "cc": 888,
+          "type": "ADV",
+          "source": "https://www.triumphmotorcycles.com/motorcycles/adventure/tiger-850-sport",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Tiger Sport 800",
+          "cc": 798,
+          "type": "Touring",
+          "source": "https://www.triumphmotorcycles.com/motorcycles/adventure/tiger-sport-800",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -1570,7 +1846,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 15
+      "modelCount": 21
     },
     {
       "id": "ktm",

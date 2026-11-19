@@ -153,6 +153,72 @@
           "type": "Sport",
           "price": null,
           "source": "https://www.honda.com/"
+        },
+        {
+          "name": "CB1000F",
+          "cc": 999,
+          "type": "Naked",
+          "source": "https://www.honda.co.uk/motorcycles/range/street/cb1000f/overview.html"
+        },
+        {
+          "name": "CBR600RR",
+          "cc": 599,
+          "type": "Sport",
+          "source": "https://www.honda.co.uk/motorcycles/range/super-sport/cbr600rr/overview.html"
+        },
+        {
+          "name": "CL500",
+          "cc": 471,
+          "type": "Retro",
+          "source": "https://www.honda.co.uk/motorcycles/range/street/cl500/overview.html"
+        },
+        {
+          "name": "GB350S",
+          "cc": 348,
+          "type": "Retro",
+          "source": "https://www.honda.co.uk/motorcycles/range/street/gb350s/overview.html"
+        },
+        {
+          "name": "NC750X",
+          "cc": 745,
+          "type": "ADV",
+          "source": "https://www.honda.co.uk/motorcycles/range/adventure/nc750x/overview.html"
+        },
+        {
+          "name": "Forza 750",
+          "cc": 745,
+          "type": "Scooter",
+          "source": "https://www.honda.co.uk/motorcycles/range/scooter/forza-750/overview.html"
+        },
+        {
+          "name": "CRF300L",
+          "cc": 286,
+          "type": "Off-road",
+          "source": "https://www.honda.co.uk/motorcycles/range/adventure/crf300l/overview.html"
+        },
+        {
+          "name": "CRF300 Rally",
+          "cc": 286,
+          "type": "Off-road",
+          "source": "https://www.honda.co.uk/motorcycles/range/adventure/crf300-rally/overview.html"
+        },
+        {
+          "name": "CRF450R",
+          "cc": 449,
+          "type": "Off-road",
+          "source": "https://www.honda.co.uk/motorcycles/range/off-road/crf450r/overview.html"
+        },
+        {
+          "name": "CRF250R",
+          "cc": 249,
+          "type": "Off-road",
+          "source": "https://www.honda.co.uk/motorcycles/range/off-road/crf250r/overview.html"
+        },
+        {
+          "name": "SH350i",
+          "cc": 330,
+          "type": "Scooter",
+          "source": "https://www.honda.co.uk/motorcycles/range/scooter/sh350i/overview.html"
         }
       ],
       "uncertain": [],
@@ -297,6 +363,42 @@
           "type": "Cruiser",
           "price": null,
           "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "XSR900 GP",
+          "cc": 890,
+          "type": "Retro",
+          "source": "https://www.yamaha-motor.eu/en/products/motorcycles/sport-heritage/xsr900-gp"
+        },
+        {
+          "name": "R9",
+          "cc": 890,
+          "type": "Sport",
+          "source": "https://www.yamaha-motor.eu/en/products/motorcycles/supersport/r9"
+        },
+        {
+          "name": "WR450F",
+          "cc": 450,
+          "type": "Off-road",
+          "source": "https://www.yamaha-motor.eu/en/products/motorcycles/off-road/wr450f"
+        },
+        {
+          "name": "YZ450F",
+          "cc": 450,
+          "type": "Off-road",
+          "source": "https://www.yamaha-motor.eu/en/products/motorcycles/off-road/yz450f"
+        },
+        {
+          "name": "RW700",
+          "cc": 689,
+          "type": "Scooter",
+          "source": "https://www.yamaha-motor.eu/en/products/motorcycles/adventure/rw700"
+        },
+        {
+          "name": "Tracer 7 GT",
+          "cc": 689,
+          "type": "Touring",
+          "source": "https://www.yamaha-motor.eu/en/products/motorcycles/sport-touring/tracer-7-gt"
         }
       ],
       "uncertain": [],
@@ -933,6 +1035,42 @@
           "type": "Cruiser",
           "price": null,
           "source": "https://www.triumphmotorcycles.com/"
+        },
+        {
+          "name": "Bonneville T100",
+          "cc": 900,
+          "type": "Retro",
+          "source": "https://www.triumphmotorcycles.com/motorcycles/classic/bonneville-t100"
+        },
+        {
+          "name": "Speedmaster",
+          "cc": 1200,
+          "type": "Cruiser",
+          "source": "https://www.triumphmotorcycles.com/motorcycles/classic/bonneville-speedmaster"
+        },
+        {
+          "name": "Scrambler 900",
+          "cc": 900,
+          "type": "Retro",
+          "source": "https://www.triumphmotorcycles.com/motorcycles/classic/bonneville-scrambler-900"
+        },
+        {
+          "name": "Thruxton RS",
+          "cc": 1200,
+          "type": "Retro",
+          "source": "https://www.triumphmotorcycles.com/motorcycles/classic/thruxton-rs"
+        },
+        {
+          "name": "Tiger 850 Sport",
+          "cc": 888,
+          "type": "ADV",
+          "source": "https://www.triumphmotorcycles.com/motorcycles/adventure/tiger-850-sport"
+        },
+        {
+          "name": "Tiger Sport 800",
+          "cc": 798,
+          "type": "Touring",
+          "source": "https://www.triumphmotorcycles.com/motorcycles/adventure/tiger-sport-800"
         }
       ],
       "uncertain": [],
