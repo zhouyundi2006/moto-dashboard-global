@@ -961,7 +961,7 @@ var s=D.stats, mk=D.market;
 $("heroDate").textContent=D.meta.updated;
 $("heroBrands").textContent=s.brandCount;
 $("heroModels").textContent=s.modelCount;
-$("heroLogos").textContent=s.logoCount;
+var hl=$("heroLogos");if(hl)hl.textContent=s.logoCount;
 var rt=$("rankTotal");if(rt)rt.textContent=s.modelCount;
 var scEl=$("scatter");if(scEl)scEl.parentElement.style.display="none";
 $("heroSub").textContent=D.meta.scope+" · every model sourced";
