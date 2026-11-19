@@ -351,7 +351,7 @@ priceChips.addEventListener("click",function(e){
   syncControls();render();
 });
 
-var chipDefs=[{k:"All",cls:""},{k:"Japanese",cls:"cat-dom"},{k:"European",cls:"cat-jv"},{k:"American",cls:"cat-imp"},{k:"Asian other",cls:"cat-asia"},{k:"Chinese",cls:"cat-cn"},{k:"Saved",cls:"cat-fav"}];
+var chipDefs=[{k:"All",cls:""},{k:"Japanese",cls:"cat-dom"},{k:"European",cls:"cat-jv"},{k:"American",cls:"cat-imp"},{k:"Asian other",cls:"cat-asia"},{k:"Chinese",cls:"cat-cn"},{k:"Saved",cls:"cat-fav"}].filter(function(c){return c.k==="Chinese"?(s.byCategory[c.k]||0)>0:true});
 $("catChips").innerHTML=chipDefs.map(function(c){
   var n=c.k==="All"?s.brandCount:(c.k==="Saved"?state.favs.length:(s.byCategory[c.k]||0));
   var label=c.k==="Saved"?"★ Saved"+n:esc(c.k)+" "+n;
