@@ -55,7 +55,8 @@ try{urlParams=new URLSearchParams(location.search)}catch(e){}
 var isFav = function(id){return state.favs.indexOf(id)>=0};
 
 /* SECTION: theme */
-var theme = store.get("moto-theme", null) || (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light":"dark");
+var themeParam=(function(){try{return new URLSearchParams(location.search).get("theme")}catch(e){return null}})();
+var theme = (themeParam==="light"||themeParam==="dark") ? themeParam : (store.get("moto-theme", null) || (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light":"dark"));
 function applyTheme(t){document.documentElement.dataset.theme=t;$("themeBtn").textContent=t==="dark"?"☾":"☀";store.set("moto-theme",t)}
 applyTheme(theme);
 $("themeBtn").addEventListener("click",function(){applyTheme(document.documentElement.dataset.theme==="dark"?"light":"dark")});
@@ -528,7 +529,7 @@ var rowTip='<div class=\'th\'>'+esc(R.desc(rv))+' · all '+esc(C.label)+'</div><
 '<div class=\'tb\'><b>'+c+'</b> models · '+tops.length+' brands</div>'+
           tops.slice(0,3).map(function(x){return '<div class=\'trow\'><span>'+esc(x.name)+'</span><span>'+x.n+' models</span></div>'}).join("")+
           (R.values.length*C.values.length?'<div class=\'tb\' style=\'color:var(--faint);margin-top:4px\'>Click to apply this combination</div>':'');
-        return '<td data-r="'+esc(rv)+'" data-c="'+esc(cv)+'" style="background:rgba(255,74,31,'+a+')" data-tip="'+esc(tip)+'">'+c+'</td>';
+        return '<td data-r="'+esc(rv)+'" data-c="'+esc(cv)+'" style="background:rgba(var(--heat-rgb),'+a+')" data-tip="'+esc(tip)+'">'+c+'</td>';
       }).join("");
       return '<tr><th class="rowh">'+esc(R.desc(rv))+'</th>'+cells+'<th class="rt" data-rt="'+esc(rv)+'" data-tip="'+esc(rowTip)+'">'+tot+'</th></tr>';
     }).join("");
