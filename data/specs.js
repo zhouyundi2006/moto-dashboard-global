@@ -2,10 +2,10 @@
    The global board covers brand/model coverage, displacement and body type only. */
 window.MOTO_SPECS = {
   meta: {
-    asOf: "2026-11-19",
+    asOf: "2026-11-20",
     source: "",
     sourceNote: "Spec sheets are not part of this edition",
-    totalModels: 255
+    totalModels: 414
   },
   models: {}
 };

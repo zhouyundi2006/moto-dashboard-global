@@ -20,8 +20,8 @@
   "stats": {
     "brandCount": 34,
     "brandCountWithModels": 34,
-    "modelCount": 278,
-    "modelCountAll": 278,
+    "modelCount": 414,
+    "modelCountAll": 414,
     "parallelBrandCount": 0,
     "parallelModelCount": 0,
     "logoCount": 31,
@@ -33,26 +33,26 @@
       "Asian other": 9
     },
     "byCategoryModels": {
-      "Japanese": 84,
-      "European": 129,
-      "American": 29,
-      "Asian other": 36
+      "Japanese": 130,
+      "European": 196,
+      "American": 41,
+      "Asian other": 47
     },
     "byBucket": {
-      "200-399cc": 63,
-      "400-699cc": 82,
-      "700-999cc": 69,
-      "1000cc+": 64
+      "200-399cc": 101,
+      "400-699cc": 101,
+      "700-999cc": 108,
+      "1000cc+": 104
     },
     "byType": {
-      "Sport": 34,
-      "Naked": 57,
-      "Cruiser": 33,
-      "ADV": 39,
-      "Scooter": 19,
-      "Retro": 42,
-      "Touring": 18,
-      "Off-road": 28,
+      "Sport": 57,
+      "Naked": 75,
+      "Cruiser": 52,
+      "ADV": 57,
+      "Scooter": 24,
+      "Retro": 54,
+      "Touring": 35,
+      "Off-road": 52,
       "Other": 8
     }
   },
@@ -68,14 +68,14 @@
       },
       {
         "label": "Models listed",
-        "value": "278",
+        "value": "414",
         "unit": "",
         "delta": "",
         "note": "200cc and above · official line-ups"
       },
       {
         "label": "Adventure models",
-        "value": "39",
+        "value": "57",
         "unit": "",
         "delta": "",
         "note": "ADV body type across all brands"
@@ -89,18 +89,18 @@
       }
     ],
     "leaders250": [
-      "Honda",
-      "Yamaha",
-      "Triumph",
       "Kawasaki",
-      "Suzuki"
+      "BMW Motorrad",
+      "Suzuki",
+      "KTM",
+      "Honda"
     ],
     "leaders500": [
-      "Harley-Davidson",
-      "Triumph",
       "BMW Motorrad",
+      "Harley-Davidson",
       "Indian Motorcycle",
-      "Honda"
+      "Triumph",
+      "Ducati"
     ],
     "source": "compiled from official manufacturer line-ups",
     "leadersSource": "Top 5 by number of 200cc+ models"
@@ -966,6 +966,222 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "GSX-8T",
+          "cc": 776,
+          "type": "Retro",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "GSX-8TT",
+          "cc": 776,
+          "type": "Retro",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "GSX-R600",
+          "cc": 599,
+          "type": "Sport",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "GSX-R1000A",
+          "cc": 999,
+          "type": "Sport",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "GSX-R1000RS",
+          "cc": 999,
+          "type": "Sport",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "GSX-S1000GX",
+          "cc": 999,
+          "type": "Sport",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "GSX-S1000GX+",
+          "cc": 999,
+          "type": "Sport",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "GSX-S1000GT",
+          "cc": 999,
+          "type": "Touring",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "GSX-S1000GT+",
+          "cc": 999,
+          "type": "Touring",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "SV-7GX",
+          "cc": 700,
+          "type": "Sport",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "SV-7S",
+          "cc": 700,
+          "type": "Naked",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "V-Strom 800",
+          "cc": 776,
+          "type": "ADV",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "V-Strom 1050",
+          "cc": 1037,
+          "type": "ADV",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Boulevard C50",
+          "cc": 805,
+          "type": "Cruiser",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Boulevard C50T",
+          "cc": 805,
+          "type": "Cruiser",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Boulevard M109R",
+          "cc": 1783,
+          "type": "Cruiser",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "DR650SE",
+          "cc": 644,
+          "type": "Off-road",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "RM-Z250",
+          "cc": 249,
+          "type": "Off-road",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -974,7 +1190,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 15
+      "modelCount": 33
     },
     {
       "id": "kawasaki",
@@ -1208,6 +1424,342 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "Ninja 1100SX",
+          "cc": 1099,
+          "type": "Sport",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Ninja 300",
+          "cc": 296,
+          "type": "Sport",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Ninja 7 Hybrid",
+          "cc": 451,
+          "type": "Sport",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Ninja H2 SX",
+          "cc": 998,
+          "type": "Sport",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Ninja H2R",
+          "cc": 998,
+          "type": "Sport",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Ninja ZX-14R",
+          "cc": 1441,
+          "type": "Sport",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Ninja ZX-4R",
+          "cc": 399,
+          "type": "Sport",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Versys 1100 SE LT",
+          "cc": 1099,
+          "type": "Touring",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Versys 900 SE LT",
+          "cc": 895,
+          "type": "Touring",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Versys-X 300",
+          "cc": 296,
+          "type": "ADV",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Vulcan 1700 Vaquero",
+          "cc": 1700,
+          "type": "Cruiser",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Vulcan 1700 Voyager",
+          "cc": 1700,
+          "type": "Touring",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Vulcan 900",
+          "cc": 903,
+          "type": "Cruiser",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "W230",
+          "cc": 233,
+          "type": "Retro",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Z H2",
+          "cc": 998,
+          "type": "Naked",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Z1100",
+          "cc": 1099,
+          "type": "Naked",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Z650RS",
+          "cc": 649,
+          "type": "Retro",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Z7 Hybrid",
+          "cc": 451,
+          "type": "Naked",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "KLE 500",
+          "cc": 451,
+          "type": "ADV",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "KLE 650",
+          "cc": 649,
+          "type": "ADV",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "KLX230",
+          "cc": 233,
+          "type": "Off-road",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "KLX230SM",
+          "cc": 233,
+          "type": "Off-road",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "KLX300",
+          "cc": 292,
+          "type": "Off-road",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "KLX300SM",
+          "cc": 292,
+          "type": "Off-road",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "KX 250F",
+          "cc": 249,
+          "type": "Off-road",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "KX 450F",
+          "cc": 449,
+          "type": "Off-road",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "KX 450X",
+          "cc": 449,
+          "type": "Off-road",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "KX 250X",
+          "cc": 249,
+          "type": "Off-road",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -1216,7 +1768,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 18
+      "modelCount": 46
     },
     {
       "id": "bmw",
@@ -1402,6 +1954,282 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "F 900 GS Adventure",
+          "cc": 895,
+          "type": "ADV",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "F 450 GS",
+          "cc": 450,
+          "type": "ADV",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "F 450 RR",
+          "cc": 450,
+          "type": "Sport",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "R 1300 RS",
+          "cc": 1300,
+          "type": "Sport",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "F 900 XR",
+          "cc": 895,
+          "type": "Sport",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "M 1000 RR",
+          "cc": 999,
+          "type": "Sport",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "M 1000 RS",
+          "cc": 999,
+          "type": "Sport",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "M 1000 XR",
+          "cc": 999,
+          "type": "Sport",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "K 1600 GTL",
+          "cc": 1649,
+          "type": "Touring",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "K 1600 B",
+          "cc": 1649,
+          "type": "Touring",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "K 1600 Grand America",
+          "cc": 1649,
+          "type": "Touring",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "R 1300 RT",
+          "cc": 1300,
+          "type": "Touring",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "R 1300 R",
+          "cc": 1300,
+          "type": "Naked",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "F 450 R",
+          "cc": 450,
+          "type": "Naked",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "R 12",
+          "cc": 1170,
+          "type": "Retro",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "R 12 G/S",
+          "cc": 1170,
+          "type": "Retro",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "R 12 S",
+          "cc": 1170,
+          "type": "Retro",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "R 18",
+          "cc": 1802,
+          "type": "Cruiser",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "R 18 Classic",
+          "cc": 1802,
+          "type": "Cruiser",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "R 18 B",
+          "cc": 1802,
+          "type": "Touring",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "R 18 Transcontinental",
+          "cc": 1802,
+          "type": "Touring",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "R 18 Roctane",
+          "cc": 1802,
+          "type": "Cruiser",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "C 400 X",
+          "cc": 398,
+          "type": "Scooter",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -1410,7 +2238,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 14
+      "modelCount": 37
     },
     {
       "id": "ducati",
@@ -1560,6 +2388,138 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "DesertX Rally",
+          "cc": 937,
+          "type": "ADV",
+          "source": "https://www.ducati.com/gb/en/bikes",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "DesertX V2",
+          "cc": 890,
+          "type": "ADV",
+          "source": "https://www.ducati.com/gb/en/bikes",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Diavel V4 RS",
+          "cc": 1156,
+          "type": "Cruiser",
+          "source": "https://www.ducati.com/gb/en/bikes",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Monster V2",
+          "cc": 890,
+          "type": "Naked",
+          "source": "https://www.ducati.com/gb/en/bikes",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Desmo450 SM",
+          "cc": 449,
+          "type": "Off-road",
+          "source": "https://www.ducati.com/gb/en/bikes",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Hypermotard V2",
+          "cc": 890,
+          "type": "Naked",
+          "source": "https://www.ducati.com/gb/en/bikes",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Multistrada V4 Rally",
+          "cc": 1158,
+          "type": "ADV",
+          "source": "https://www.ducati.com/gb/en/bikes",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Multistrada V4 RS",
+          "cc": 1158,
+          "type": "Touring",
+          "source": "https://www.ducati.com/gb/en/bikes",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Panigale V4 R",
+          "cc": 998,
+          "type": "Sport",
+          "source": "https://www.ducati.com/gb/en/bikes",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Streetfighter V2",
+          "cc": 890,
+          "type": "Naked",
+          "source": "https://www.ducati.com/gb/en/bikes",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "XDiavel V4",
+          "cc": 1156,
+          "type": "Cruiser",
+          "source": "https://www.ducati.com/gb/en/bikes",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -1568,7 +2528,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 11
+      "modelCount": 22
     },
     {
       "id": "triumph",
@@ -2032,6 +2992,186 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "1390 Super Duke GT",
+          "cc": 1350,
+          "type": "Touring",
+          "source": "https://www.ktm.com/en-int/models.html",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "1390 Super Duke R EVO",
+          "cc": 1350,
+          "type": "Naked",
+          "source": "https://www.ktm.com/en-int/models.html",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "990 Duke R",
+          "cc": 947,
+          "type": "Naked",
+          "source": "https://www.ktm.com/en-int/models.html",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "990 RC R",
+          "cc": 947,
+          "type": "Sport",
+          "source": "https://www.ktm.com/en-int/models.html",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "690 Rally",
+          "cc": 693,
+          "type": "ADV",
+          "source": "https://www.ktm.com/en-int/models.html",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "390 Enduro R",
+          "cc": 399,
+          "type": "Off-road",
+          "source": "https://www.ktm.com/en-int/models.html",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "390 Adventure X",
+          "cc": 399,
+          "type": "ADV",
+          "source": "https://www.ktm.com/en-int/models.html",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "390 Adventure R",
+          "cc": 399,
+          "type": "ADV",
+          "source": "https://www.ktm.com/en-int/models.html",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "390 SMC R",
+          "cc": 399,
+          "type": "Naked",
+          "source": "https://www.ktm.com/en-int/models.html",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "200 Duke",
+          "cc": 199,
+          "type": "Naked",
+          "source": "https://www.ktm.com/en-int/models.html",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "890 Adventure R",
+          "cc": 889,
+          "type": "ADV",
+          "source": "https://www.ktm.com/en-int/models.html",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "250 EXC-F",
+          "cc": 250,
+          "type": "Off-road",
+          "source": "https://www.ktm.com/en-int/models.html",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "350 EXC-F",
+          "cc": 350,
+          "type": "Off-road",
+          "source": "https://www.ktm.com/en-int/models.html",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "450 SX-F",
+          "cc": 450,
+          "type": "Off-road",
+          "source": "https://www.ktm.com/en-int/models.html",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "300 EXC",
+          "cc": 293,
+          "type": "Off-road",
+          "source": "https://www.ktm.com/en-int/models.html",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -2040,7 +3180,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 14
+      "modelCount": 29
     },
     {
       "id": "husqvarna",
@@ -2288,6 +3428,18 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "SR GT 400",
+          "cc": 399,
+          "type": "Scooter",
+          "source": "https://www.aprilia.com/en_EN/models/",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -2296,7 +3448,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 8
+      "modelCount": 9
     },
     {
       "id": "motoguzzi",
@@ -2386,6 +3538,18 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "V7 Sport",
+          "cc": 853,
+          "type": "Retro",
+          "source": "https://www.motoguzzi.com/en_EN/models/",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -2394,7 +3558,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 6
+      "modelCount": 7
     },
     {
       "id": "mv",
@@ -2508,6 +3672,42 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "Brutale 1000 RS",
+          "cc": 998,
+          "type": "Naked",
+          "source": "https://www.mvagusta.com/models",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Dragster RR",
+          "cc": 798,
+          "type": "Naked",
+          "source": "https://www.mvagusta.com/models",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "F3 RR",
+          "cc": 798,
+          "type": "Sport",
+          "source": "https://www.mvagusta.com/models",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -2516,7 +3716,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 8
+      "modelCount": 11
     },
     {
       "id": "benelli",
@@ -2630,6 +3830,30 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "TRK 800",
+          "cc": 754,
+          "type": "ADV",
+          "source": "https://www.benelli.com/models",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "BKX 300",
+          "cc": 292,
+          "type": "ADV",
+          "source": "https://www.benelli.com/models",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -2638,7 +3862,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 8
+      "modelCount": 10
     },
     {
       "id": "morini",
@@ -2704,6 +3928,30 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "Corsaro 750",
+          "cc": 749,
+          "type": "Naked",
+          "source": "https://www.motomorini.eu/en/models",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "X-Cape 1200",
+          "cc": 1187,
+          "type": "ADV",
+          "source": "https://www.motomorini.eu/en/models",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -2712,7 +3960,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 4
+      "modelCount": 6
     },
     {
       "id": "fantic",
@@ -2790,6 +4038,18 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "Imola 500",
+          "cc": 449,
+          "type": "Retro",
+          "source": "https://www.fantic.com/en/models",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -2798,7 +4058,7 @@
       ],
       "note": null,
       "logoDark": true,
-      "modelCount": 5
+      "modelCount": 6
     },
     {
       "id": "beta",
@@ -2912,6 +4172,66 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "RR 200",
+          "cc": 200,
+          "type": "Off-road",
+          "source": "https://www.betamotor.com/en/models",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "RR 350",
+          "cc": 350,
+          "type": "Off-road",
+          "source": "https://www.betamotor.com/en/models",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "RR 430",
+          "cc": 430,
+          "type": "Off-road",
+          "source": "https://www.betamotor.com/en/models",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "RS 390",
+          "cc": 390,
+          "type": "Off-road",
+          "source": "https://www.betamotor.com/en/models",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "RS 500",
+          "cc": 498,
+          "type": "Off-road",
+          "source": "https://www.betamotor.com/en/models",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -2920,7 +4240,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 8
+      "modelCount": 13
     },
     {
       "id": "sherco",
@@ -3010,6 +4330,30 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "SEF 250",
+          "cc": 250,
+          "type": "Off-road",
+          "source": "https://www.sherco.com/en/models",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "SEF 300",
+          "cc": 300,
+          "type": "Off-road",
+          "source": "https://www.sherco.com/en/models",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -3018,7 +4362,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 6
+      "modelCount": 8
     },
     {
       "id": "norton",
@@ -3122,6 +4466,18 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "Bantam 350",
+          "cc": 350,
+          "type": "Retro",
+          "source": "https://www.bsa-motorcycles.com/models",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -3130,7 +4486,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 2
+      "modelCount": 3
     },
     {
       "id": "harley",
@@ -3304,6 +4660,78 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "Nightster Special",
+          "cc": 975,
+          "type": "Cruiser",
+          "source": "https://www.harley-davidson.com/us/en/motorcycles",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Low Rider ST",
+          "cc": 1923,
+          "type": "Cruiser",
+          "source": "https://www.harley-davidson.com/us/en/motorcycles",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "CVO Street Glide",
+          "cc": 1984,
+          "type": "Touring",
+          "source": "https://www.harley-davidson.com/us/en/motorcycles",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "CVO Road Glide",
+          "cc": 1984,
+          "type": "Touring",
+          "source": "https://www.harley-davidson.com/us/en/motorcycles",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Road Glide 3",
+          "cc": 1868,
+          "type": "Touring",
+          "source": "https://www.harley-davidson.com/us/en/motorcycles",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Pan America 1250 ST",
+          "cc": 1252,
+          "type": "ADV",
+          "source": "https://www.harley-davidson.com/us/en/motorcycles",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -3312,7 +4740,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 13
+      "modelCount": 19
     },
     {
       "id": "indian",
@@ -3438,6 +4866,78 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "Scout Classic",
+          "cc": 1250,
+          "type": "Cruiser",
+          "source": "https://www.indianmotorcycle.com/en-us/models/",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "101 Scout",
+          "cc": 1250,
+          "type": "Cruiser",
+          "source": "https://www.indianmotorcycle.com/en-us/models/",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Sport Scout",
+          "cc": 1250,
+          "type": "Cruiser",
+          "source": "https://www.indianmotorcycle.com/en-us/models/",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Sport Chief",
+          "cc": 1890,
+          "type": "Cruiser",
+          "source": "https://www.indianmotorcycle.com/en-us/models/",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Springfield",
+          "cc": 1890,
+          "type": "Touring",
+          "source": "https://www.indianmotorcycle.com/en-us/models/",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Chief",
+          "cc": 1890,
+          "type": "Cruiser",
+          "source": "https://www.indianmotorcycle.com/en-us/models/",
+          "bucket": "1000cc+",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -3446,7 +4946,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 9
+      "modelCount": 15
     },
     {
       "id": "buell",
@@ -3770,6 +5270,18 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "Classic 650",
+          "cc": 648,
+          "type": "Retro",
+          "source": "https://www.royalenfield.com/models",
+          "bucket": "400-699cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -3778,7 +5290,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 12
+      "modelCount": 13
     },
     {
       "id": "hero",
@@ -3832,6 +5344,18 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "Xpulse 200 4V",
+          "cc": 199,
+          "type": "Off-road",
+          "source": "https://www.heromotocorp.com/en-in/models",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -3840,7 +5364,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 3
+      "modelCount": 4
     },
     {
       "id": "bajaj",
@@ -3894,6 +5418,54 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "Pulsar NS200",
+          "cc": 199,
+          "type": "Naked",
+          "source": "https://www.bajajauto.com/bikes",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Pulsar RS200",
+          "cc": 199,
+          "type": "Sport",
+          "source": "https://www.bajajauto.com/bikes",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Avenger 220",
+          "cc": 220,
+          "type": "Cruiser",
+          "source": "https://www.bajajauto.com/bikes",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "Pulsar N250",
+          "cc": 249,
+          "type": "Naked",
+          "source": "https://www.bajajauto.com/bikes",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -3902,7 +5474,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 3
+      "modelCount": 7
     },
     {
       "id": "tvs",
@@ -4030,6 +5602,18 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "Jawa 42",
+          "cc": 334,
+          "type": "Retro",
+          "source": "https://www.jawamotorcycles.com/models",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -4038,7 +5622,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 4
+      "modelCount": 5
     },
     {
       "id": "kymco",
@@ -4104,6 +5688,30 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "X-Town 300",
+          "cc": 278,
+          "type": "Scooter",
+          "source": "https://www.kymco.com/product",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
+        },
+        {
+          "name": "People 250",
+          "cc": 249,
+          "type": "Scooter",
+          "source": "https://www.kymco.com/product",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -4112,7 +5720,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 4
+      "modelCount": 6
     },
     {
       "id": "sym",
@@ -4178,6 +5786,18 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "HD 300",
+          "cc": 278,
+          "type": "Scooter",
+          "source": "https://www.symmoto.com/models",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -4186,7 +5806,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 4
+      "modelCount": 5
     },
     {
       "id": "pgo",
@@ -4266,6 +5886,18 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "Aquila 250",
+          "cc": 249,
+          "type": "Cruiser",
+          "source": "https://www.hyosungmotors.com",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -4274,7 +5906,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 2
+      "modelCount": 3
     },
     {
       "id": "ural",

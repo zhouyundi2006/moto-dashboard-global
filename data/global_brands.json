@@ -529,6 +529,114 @@
           "type": "Off-road",
           "price": null,
           "source": "https://www.globalsuzuki.com/motorcycle/"
+        },
+        {
+          "name": "GSX-8T",
+          "cc": 776,
+          "type": "Retro",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "GSX-8TT",
+          "cc": 776,
+          "type": "Retro",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "GSX-R600",
+          "cc": 599,
+          "type": "Sport",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "GSX-R1000A",
+          "cc": 999,
+          "type": "Sport",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "GSX-R1000RS",
+          "cc": 999,
+          "type": "Sport",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "GSX-S1000GX",
+          "cc": 999,
+          "type": "Sport",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "GSX-S1000GX+",
+          "cc": 999,
+          "type": "Sport",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "GSX-S1000GT",
+          "cc": 999,
+          "type": "Touring",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "GSX-S1000GT+",
+          "cc": 999,
+          "type": "Touring",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "SV-7GX",
+          "cc": 700,
+          "type": "Sport",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "SV-7S",
+          "cc": 700,
+          "type": "Naked",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "V-Strom 800",
+          "cc": 776,
+          "type": "ADV",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "V-Strom 1050",
+          "cc": 1037,
+          "type": "ADV",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "Boulevard C50",
+          "cc": 805,
+          "type": "Cruiser",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "Boulevard C50T",
+          "cc": 805,
+          "type": "Cruiser",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "Boulevard M109R",
+          "cc": 1783,
+          "type": "Cruiser",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "DR650SE",
+          "cc": 644,
+          "type": "Off-road",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "RM-Z250",
+          "cc": 249,
+          "type": "Off-road",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
         }
       ],
       "uncertain": [],
@@ -680,6 +788,174 @@
           "type": "Off-road",
           "price": null,
           "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "Ninja 1100SX",
+          "cc": 1099,
+          "type": "Sport",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "Ninja 300",
+          "cc": 296,
+          "type": "Sport",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "Ninja 7 Hybrid",
+          "cc": 451,
+          "type": "Sport",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "Ninja H2 SX",
+          "cc": 998,
+          "type": "Sport",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "Ninja H2R",
+          "cc": 998,
+          "type": "Sport",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "Ninja ZX-14R",
+          "cc": 1441,
+          "type": "Sport",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "Ninja ZX-4R",
+          "cc": 399,
+          "type": "Sport",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "Versys 1100 SE LT",
+          "cc": 1099,
+          "type": "Touring",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "Versys 900 SE LT",
+          "cc": 895,
+          "type": "Touring",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "Versys-X 300",
+          "cc": 296,
+          "type": "ADV",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "Vulcan 1700 Vaquero",
+          "cc": 1700,
+          "type": "Cruiser",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "Vulcan 1700 Voyager",
+          "cc": 1700,
+          "type": "Touring",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "Vulcan 900",
+          "cc": 903,
+          "type": "Cruiser",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "W230",
+          "cc": 233,
+          "type": "Retro",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "Z H2",
+          "cc": 998,
+          "type": "Naked",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "Z1100",
+          "cc": 1099,
+          "type": "Naked",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "Z650RS",
+          "cc": 649,
+          "type": "Retro",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "Z7 Hybrid",
+          "cc": 451,
+          "type": "Naked",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "KLE 500",
+          "cc": 451,
+          "type": "ADV",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "KLE 650",
+          "cc": 649,
+          "type": "ADV",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "KLX230",
+          "cc": 233,
+          "type": "Off-road",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "KLX230SM",
+          "cc": 233,
+          "type": "Off-road",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "KLX300",
+          "cc": 292,
+          "type": "Off-road",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "KLX300SM",
+          "cc": 292,
+          "type": "Off-road",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "KX 250F",
+          "cc": 249,
+          "type": "Off-road",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "KX 450F",
+          "cc": 449,
+          "type": "Off-road",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "KX 450X",
+          "cc": 449,
+          "type": "Off-road",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
+        },
+        {
+          "name": "KX 250X",
+          "cc": 249,
+          "type": "Off-road",
+          "source": "https://www.kawasaki.com/en-us/category/motorcycle"
         }
       ],
       "uncertain": [],
@@ -803,6 +1079,144 @@
           "type": "Scooter",
           "price": null,
           "source": "https://www.bmw-motorrad.com/"
+        },
+        {
+          "name": "F 900 GS Adventure",
+          "cc": 895,
+          "type": "ADV",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "F 450 GS",
+          "cc": 450,
+          "type": "ADV",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "F 450 RR",
+          "cc": 450,
+          "type": "Sport",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "R 1300 RS",
+          "cc": 1300,
+          "type": "Sport",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "F 900 XR",
+          "cc": 895,
+          "type": "Sport",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "M 1000 RR",
+          "cc": 999,
+          "type": "Sport",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "M 1000 RS",
+          "cc": 999,
+          "type": "Sport",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "M 1000 XR",
+          "cc": 999,
+          "type": "Sport",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "K 1600 GTL",
+          "cc": 1649,
+          "type": "Touring",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "K 1600 B",
+          "cc": 1649,
+          "type": "Touring",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "K 1600 Grand America",
+          "cc": 1649,
+          "type": "Touring",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "R 1300 RT",
+          "cc": 1300,
+          "type": "Touring",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "R 1300 R",
+          "cc": 1300,
+          "type": "Naked",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "F 450 R",
+          "cc": 450,
+          "type": "Naked",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "R 12",
+          "cc": 1170,
+          "type": "Retro",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "R 12 G/S",
+          "cc": 1170,
+          "type": "Retro",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "R 12 S",
+          "cc": 1170,
+          "type": "Retro",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "R 18",
+          "cc": 1802,
+          "type": "Cruiser",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "R 18 Classic",
+          "cc": 1802,
+          "type": "Cruiser",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "R 18 B",
+          "cc": 1802,
+          "type": "Touring",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "R 18 Transcontinental",
+          "cc": 1802,
+          "type": "Touring",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "R 18 Roctane",
+          "cc": 1802,
+          "type": "Cruiser",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
+        },
+        {
+          "name": "C 400 X",
+          "cc": 398,
+          "type": "Scooter",
+          "source": "https://www.bmw-motorrad.ie/en/models/modeloverview.html"
         }
       ],
       "uncertain": [],
@@ -905,6 +1319,72 @@
           "type": "Sport",
           "price": null,
           "source": "https://www.ducati.com/"
+        },
+        {
+          "name": "DesertX Rally",
+          "cc": 937,
+          "type": "ADV",
+          "source": "https://www.ducati.com/gb/en/bikes"
+        },
+        {
+          "name": "DesertX V2",
+          "cc": 890,
+          "type": "ADV",
+          "source": "https://www.ducati.com/gb/en/bikes"
+        },
+        {
+          "name": "Diavel V4 RS",
+          "cc": 1156,
+          "type": "Cruiser",
+          "source": "https://www.ducati.com/gb/en/bikes"
+        },
+        {
+          "name": "Monster V2",
+          "cc": 890,
+          "type": "Naked",
+          "source": "https://www.ducati.com/gb/en/bikes"
+        },
+        {
+          "name": "Desmo450 SM",
+          "cc": 449,
+          "type": "Off-road",
+          "source": "https://www.ducati.com/gb/en/bikes"
+        },
+        {
+          "name": "Hypermotard V2",
+          "cc": 890,
+          "type": "Naked",
+          "source": "https://www.ducati.com/gb/en/bikes"
+        },
+        {
+          "name": "Multistrada V4 Rally",
+          "cc": 1158,
+          "type": "ADV",
+          "source": "https://www.ducati.com/gb/en/bikes"
+        },
+        {
+          "name": "Multistrada V4 RS",
+          "cc": 1158,
+          "type": "Touring",
+          "source": "https://www.ducati.com/gb/en/bikes"
+        },
+        {
+          "name": "Panigale V4 R",
+          "cc": 998,
+          "type": "Sport",
+          "source": "https://www.ducati.com/gb/en/bikes"
+        },
+        {
+          "name": "Streetfighter V2",
+          "cc": 890,
+          "type": "Naked",
+          "source": "https://www.ducati.com/gb/en/bikes"
+        },
+        {
+          "name": "XDiavel V4",
+          "cc": 1156,
+          "type": "Cruiser",
+          "source": "https://www.ducati.com/gb/en/bikes"
         }
       ],
       "uncertain": [],
@@ -1194,6 +1674,96 @@
           "type": "Off-road",
           "price": null,
           "source": "https://www.ktm.com/"
+        },
+        {
+          "name": "1390 Super Duke GT",
+          "cc": 1350,
+          "type": "Touring",
+          "source": "https://www.ktm.com/en-int/models.html"
+        },
+        {
+          "name": "1390 Super Duke R EVO",
+          "cc": 1350,
+          "type": "Naked",
+          "source": "https://www.ktm.com/en-int/models.html"
+        },
+        {
+          "name": "990 Duke R",
+          "cc": 947,
+          "type": "Naked",
+          "source": "https://www.ktm.com/en-int/models.html"
+        },
+        {
+          "name": "990 RC R",
+          "cc": 947,
+          "type": "Sport",
+          "source": "https://www.ktm.com/en-int/models.html"
+        },
+        {
+          "name": "690 Rally",
+          "cc": 693,
+          "type": "ADV",
+          "source": "https://www.ktm.com/en-int/models.html"
+        },
+        {
+          "name": "390 Enduro R",
+          "cc": 399,
+          "type": "Off-road",
+          "source": "https://www.ktm.com/en-int/models.html"
+        },
+        {
+          "name": "390 Adventure X",
+          "cc": 399,
+          "type": "ADV",
+          "source": "https://www.ktm.com/en-int/models.html"
+        },
+        {
+          "name": "390 Adventure R",
+          "cc": 399,
+          "type": "ADV",
+          "source": "https://www.ktm.com/en-int/models.html"
+        },
+        {
+          "name": "390 SMC R",
+          "cc": 399,
+          "type": "Naked",
+          "source": "https://www.ktm.com/en-int/models.html"
+        },
+        {
+          "name": "200 Duke",
+          "cc": 199,
+          "type": "Naked",
+          "source": "https://www.ktm.com/en-int/models.html"
+        },
+        {
+          "name": "890 Adventure R",
+          "cc": 889,
+          "type": "ADV",
+          "source": "https://www.ktm.com/en-int/models.html"
+        },
+        {
+          "name": "250 EXC-F",
+          "cc": 250,
+          "type": "Off-road",
+          "source": "https://www.ktm.com/en-int/models.html"
+        },
+        {
+          "name": "350 EXC-F",
+          "cc": 350,
+          "type": "Off-road",
+          "source": "https://www.ktm.com/en-int/models.html"
+        },
+        {
+          "name": "450 SX-F",
+          "cc": 450,
+          "type": "Off-road",
+          "source": "https://www.ktm.com/en-int/models.html"
+        },
+        {
+          "name": "300 EXC",
+          "cc": 293,
+          "type": "Off-road",
+          "source": "https://www.ktm.com/en-int/models.html"
         }
       ],
       "uncertain": [],
@@ -1363,6 +1933,12 @@
           "type": "ADV",
           "price": null,
           "source": "https://www.aprilia.com/"
+        },
+        {
+          "name": "SR GT 400",
+          "cc": 399,
+          "type": "Scooter",
+          "source": "https://www.aprilia.com/en_EN/models/"
         }
       ],
       "uncertain": [],
@@ -1430,6 +2006,12 @@
           "type": "ADV",
           "price": null,
           "source": "https://www.motoguzzi.com/"
+        },
+        {
+          "name": "V7 Sport",
+          "cc": 853,
+          "type": "Retro",
+          "source": "https://www.motoguzzi.com/en_EN/models/"
         }
       ],
       "uncertain": [],
@@ -1511,6 +2093,24 @@
           "type": "ADV",
           "price": null,
           "source": "https://www.mvagusta.com/"
+        },
+        {
+          "name": "Brutale 1000 RS",
+          "cc": 998,
+          "type": "Naked",
+          "source": "https://www.mvagusta.com/models"
+        },
+        {
+          "name": "Dragster RR",
+          "cc": 798,
+          "type": "Naked",
+          "source": "https://www.mvagusta.com/models"
+        },
+        {
+          "name": "F3 RR",
+          "cc": 798,
+          "type": "Sport",
+          "source": "https://www.mvagusta.com/models"
         }
       ],
       "uncertain": [],
@@ -1592,6 +2192,18 @@
           "type": "Retro",
           "price": null,
           "source": "https://www.benelli.com/"
+        },
+        {
+          "name": "TRK 800",
+          "cc": 754,
+          "type": "ADV",
+          "source": "https://www.benelli.com/models"
+        },
+        {
+          "name": "BKX 300",
+          "cc": 292,
+          "type": "ADV",
+          "source": "https://www.benelli.com/models"
         }
       ],
       "uncertain": [],
@@ -1645,6 +2257,18 @@
           "type": "Cruiser",
           "price": null,
           "source": "https://www.motomorini.eu/"
+        },
+        {
+          "name": "Corsaro 750",
+          "cc": 749,
+          "type": "Naked",
+          "source": "https://www.motomorini.eu/en/models"
+        },
+        {
+          "name": "X-Cape 1200",
+          "cc": 1187,
+          "type": "ADV",
+          "source": "https://www.motomorini.eu/en/models"
         }
       ],
       "uncertain": [],
@@ -1705,6 +2329,12 @@
           "type": "Off-road",
           "price": null,
           "source": "https://www.fanticmotor.it/"
+        },
+        {
+          "name": "Imola 500",
+          "cc": 449,
+          "type": "Retro",
+          "source": "https://www.fantic.com/en/models"
         }
       ],
       "uncertain": [],
@@ -1786,6 +2416,36 @@
           "type": "Off-road",
           "price": null,
           "source": "https://www.betamotor.com/"
+        },
+        {
+          "name": "RR 200",
+          "cc": 200,
+          "type": "Off-road",
+          "source": "https://www.betamotor.com/en/models"
+        },
+        {
+          "name": "RR 350",
+          "cc": 350,
+          "type": "Off-road",
+          "source": "https://www.betamotor.com/en/models"
+        },
+        {
+          "name": "RR 430",
+          "cc": 430,
+          "type": "Off-road",
+          "source": "https://www.betamotor.com/en/models"
+        },
+        {
+          "name": "RS 390",
+          "cc": 390,
+          "type": "Off-road",
+          "source": "https://www.betamotor.com/en/models"
+        },
+        {
+          "name": "RS 500",
+          "cc": 498,
+          "type": "Off-road",
+          "source": "https://www.betamotor.com/en/models"
         }
       ],
       "uncertain": [],
@@ -1853,6 +2513,18 @@
           "type": "Other",
           "price": null,
           "source": "https://www.sherco.com/"
+        },
+        {
+          "name": "SEF 250",
+          "cc": 250,
+          "type": "Off-road",
+          "source": "https://www.sherco.com/en/models"
+        },
+        {
+          "name": "SEF 300",
+          "cc": 300,
+          "type": "Off-road",
+          "source": "https://www.sherco.com/en/models"
         }
       ],
       "uncertain": [],
@@ -1938,6 +2610,12 @@
           "type": "Retro",
           "price": null,
           "source": "https://www.bsamotorcycles.com/"
+        },
+        {
+          "name": "Bantam 350",
+          "cc": 350,
+          "type": "Retro",
+          "source": "https://www.bsa-motorcycles.com/models"
         }
       ],
       "uncertain": [],
@@ -2054,6 +2732,42 @@
           "type": "Touring",
           "price": null,
           "source": "https://www.harley-davidson.com/"
+        },
+        {
+          "name": "Nightster Special",
+          "cc": 975,
+          "type": "Cruiser",
+          "source": "https://www.harley-davidson.com/us/en/motorcycles"
+        },
+        {
+          "name": "Low Rider ST",
+          "cc": 1923,
+          "type": "Cruiser",
+          "source": "https://www.harley-davidson.com/us/en/motorcycles"
+        },
+        {
+          "name": "CVO Street Glide",
+          "cc": 1984,
+          "type": "Touring",
+          "source": "https://www.harley-davidson.com/us/en/motorcycles"
+        },
+        {
+          "name": "CVO Road Glide",
+          "cc": 1984,
+          "type": "Touring",
+          "source": "https://www.harley-davidson.com/us/en/motorcycles"
+        },
+        {
+          "name": "Road Glide 3",
+          "cc": 1868,
+          "type": "Touring",
+          "source": "https://www.harley-davidson.com/us/en/motorcycles"
+        },
+        {
+          "name": "Pan America 1250 ST",
+          "cc": 1252,
+          "type": "ADV",
+          "source": "https://www.harley-davidson.com/us/en/motorcycles"
         }
       ],
       "uncertain": [],
@@ -2142,6 +2856,42 @@
           "type": "Touring",
           "price": null,
           "source": "https://www.indianmotorcycle.com/"
+        },
+        {
+          "name": "Scout Classic",
+          "cc": 1250,
+          "type": "Cruiser",
+          "source": "https://www.indianmotorcycle.com/en-us/models/"
+        },
+        {
+          "name": "101 Scout",
+          "cc": 1250,
+          "type": "Cruiser",
+          "source": "https://www.indianmotorcycle.com/en-us/models/"
+        },
+        {
+          "name": "Sport Scout",
+          "cc": 1250,
+          "type": "Cruiser",
+          "source": "https://www.indianmotorcycle.com/en-us/models/"
+        },
+        {
+          "name": "Sport Chief",
+          "cc": 1890,
+          "type": "Cruiser",
+          "source": "https://www.indianmotorcycle.com/en-us/models/"
+        },
+        {
+          "name": "Springfield",
+          "cc": 1890,
+          "type": "Touring",
+          "source": "https://www.indianmotorcycle.com/en-us/models/"
+        },
+        {
+          "name": "Chief",
+          "cc": 1890,
+          "type": "Cruiser",
+          "source": "https://www.indianmotorcycle.com/en-us/models/"
         }
       ],
       "uncertain": [],
@@ -2375,6 +3125,12 @@
           "type": "Retro",
           "price": null,
           "source": "https://www.royalenfield.com/"
+        },
+        {
+          "name": "Classic 650",
+          "cc": 648,
+          "type": "Retro",
+          "source": "https://www.royalenfield.com/models"
         }
       ],
       "uncertain": [],
@@ -2421,6 +3177,12 @@
           "type": "Naked",
           "price": null,
           "source": "https://www.heromotocorp.com/"
+        },
+        {
+          "name": "Xpulse 200 4V",
+          "cc": 199,
+          "type": "Off-road",
+          "source": "https://www.heromotocorp.com/en-in/models"
         }
       ],
       "uncertain": [],
@@ -2467,6 +3229,30 @@
           "type": "Naked",
           "price": null,
           "source": "https://www.bajajauto.com/"
+        },
+        {
+          "name": "Pulsar NS200",
+          "cc": 199,
+          "type": "Naked",
+          "source": "https://www.bajajauto.com/bikes"
+        },
+        {
+          "name": "Pulsar RS200",
+          "cc": 199,
+          "type": "Sport",
+          "source": "https://www.bajajauto.com/bikes"
+        },
+        {
+          "name": "Avenger 220",
+          "cc": 220,
+          "type": "Cruiser",
+          "source": "https://www.bajajauto.com/bikes"
+        },
+        {
+          "name": "Pulsar N250",
+          "cc": 249,
+          "type": "Naked",
+          "source": "https://www.bajajauto.com/bikes"
         }
       ],
       "uncertain": [],
@@ -2566,6 +3352,12 @@
           "type": "Retro",
           "price": null,
           "source": "https://www.jawamotorcycles.com/"
+        },
+        {
+          "name": "Jawa 42",
+          "cc": 334,
+          "type": "Retro",
+          "source": "https://www.jawamotorcycles.com/models"
         }
       ],
       "uncertain": [],
@@ -2619,6 +3411,18 @@
           "type": "Scooter",
           "price": null,
           "source": "https://www.kymco.com/"
+        },
+        {
+          "name": "X-Town 300",
+          "cc": 278,
+          "type": "Scooter",
+          "source": "https://www.kymco.com/product"
+        },
+        {
+          "name": "People 250",
+          "cc": 249,
+          "type": "Scooter",
+          "source": "https://www.kymco.com/product"
         }
       ],
       "uncertain": [],
@@ -2672,6 +3476,12 @@
           "type": "Scooter",
           "price": null,
           "source": "https://www.sym-global.com/"
+        },
+        {
+          "name": "HD 300",
+          "cc": 278,
+          "type": "Scooter",
+          "source": "https://www.symmoto.com/models"
         }
       ],
       "uncertain": [],
@@ -2743,6 +3553,12 @@
           "type": "Cruiser",
           "price": null,
           "source": "https://www.krmotors.com/"
+        },
+        {
+          "name": "Aquila 250",
+          "cc": 249,
+          "type": "Cruiser",
+          "source": "https://www.hyosungmotors.com"
         }
       ],
       "uncertain": [],
