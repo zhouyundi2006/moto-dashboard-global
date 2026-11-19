@@ -24,7 +24,7 @@ export interface Brand {
   name: string;
   nameEn?: string;
   company?: string;
-  category: "Japanese" | "European" | "American" | "Asian other";
+  category: "Japanese" | "European" | "American" | "Asian other" | "Chinese";
   subCategory?: string;
   group?: string;
   marketStatus?: string;
@@ -76,7 +76,9 @@ export interface Market {
 export interface Dashboard {
   meta: Record<string, unknown>;
   stats: Stats;
+  statsOutsideChina?: Stats;
   market: Market;
+  marketOutsideChina?: Market;
   brands: Brand[];
 }
 

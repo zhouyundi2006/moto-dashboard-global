@@ -274,7 +274,7 @@ def brand_page(b, d, siblings):
 <body>
 <header class="top"><div class="in">
   <a class="back" href="../index.html">← All {brands} brands</a>
-  <span class="crumb">MOTO GRID · 250cc+ · {cat}</span>
+  <span class="crumb">MOTO GRID · 200cc+ · global · {cat}</span>
 </div></header>
 <main class="wrap">
   <div class="hero">
@@ -298,7 +298,7 @@ def brand_page(b, d, siblings):
   {src_block}
 </main>
 <footer><div class="wrap">
-  Updated {upd} | Scope: outside mainland China, 200cc+ | {tot_b} brands / {tot_m} models in total<br>
+  Updated {upd} | Scope: worldwide, incl. Chinese export line-ups · 200cc+ | {tot_b} brands / {tot_m} models in total<br>
   <a href="../index.html#about">Scope and completeness notes</a> ·
   <a href="../index.html">Back to the dashboard</a> · <a href="../index.html#explorer">Filter in the model browser</a>
 </div></footer>

@@ -24,12 +24,19 @@ if (!DATA || !DATA.brands) {
 }
 
 
+var SCOPE_OUTSIDE=false;
+try{SCOPE_OUTSIDE=new URLSearchParams(location.search).get("scope")==="exchina"}catch(e){}
 var D: Dashboard = DATA;
+if(SCOPE_OUTSIDE){
+  D.brands = DATA.brands.filter(function(b){return b.category!=="Chinese"});
+  if(DATA.statsOutsideChina) D.stats = DATA.statsOutsideChina;
+  if(DATA.marketOutsideChina) D.market = DATA.marketOutsideChina;
+}
 var LOGO: Record<string, string> = {};
 D.brands.forEach(function (b) { if (b.logo && b.logo.file) LOGO[b.id] = b.logo.file; });
-var CATS = ["Japanese","European","American","Asian other"];
-var CAT_KEY = {"Japanese":"dom","European":"jv","American":"imp","Asian other":"asia"};
-var CAT_COLOR = {"Japanese":"var(--dom)","European":"var(--jv)","American":"var(--imp)","Asian other":"var(--asia)"};
+var CATS = ["Japanese","European","American","Asian other","Chinese"];
+var CAT_KEY = {"Japanese":"dom","European":"jv","American":"imp","Asian other":"asia","Chinese":"cn"};
+var CAT_COLOR = {"Japanese":"var(--dom)","European":"var(--jv)","American":"var(--imp)","Asian other":"var(--asia)","Chinese":"var(--cn)"};
 var BUCKETS = ["200-399cc","400-699cc","700-999cc","1000cc+"];
 var BUCKET_COLOR = ["#FF4A1F","#FFB224","#2FD6A3","#4D9FFF"];
 var TYPE_COLOR = {"Cruiser":"#FF4A1F","Naked":"#4D9FFF","ADV":"#2FD6A3","Adventure":"#2FD6A3","Sport":"#FF5C5C","Scooter":"#FFB224","Retro":"#B78CFF","Touring":"#59C2E6","Off-road":"#8BD450","Sidecar":"#F2789F","Reverse trike":"#C9A26B","Other":"#9AA5B5"};
@@ -117,7 +124,7 @@ $("tYear").textContent=mk.year;
 $("marketYear").textContent=mk.year;
 $("footDate").textContent=D.meta.updated;
 var heroKpis=[
-{label:"Brands covered",val:s.brandCount,unit:"",note:"Japanese / European / American / Asian other"},
+{label:"Brands covered",val:s.brandCount,unit:"",note:D.brands.some(function(b){return b.category==="Chinese"})?"Japanese / European / American / Asian other / Chinese":"Japanese / European / American / Asian other"},
   {label:"Models listed",val:s.modelCount,unit:"",note:"\u2265200cc · official line-ups"},
   {label:"Models above 1000cc",val:(s.byBucket["1000cc+"]||0),unit:"",note:"the top of the displacement range",hot:true},
   {label:"Adventure models",val:(s.byType["ADV"]||0),unit:"",note:"ADV body type · largest slice after cruisers",hot:true}
@@ -198,7 +205,7 @@ function bars(elId,obj,order,colors,kind){
 }
 bars("chartBucket",s.byBucket,BUCKETS,BUCKET_COLOR,"bucket");
 bars("chartType",s.byType,null,TYPE_COLOR,"type");
-bars("chartCat",s.byCategoryModels,CATS,CAT_COLOR,"cat");
+bars("chartCat",s.byCategoryModels,CATS.filter(function(c){return (s.byCategoryModels[c]||0)>0}),CAT_COLOR,"cat");
 $("chartTotal").textContent=s.modelCount;
 
 function animateBars(root){
@@ -344,7 +351,7 @@ priceChips.addEventListener("click",function(e){
   syncControls();render();
 });
 
-var chipDefs=[{k:"All",cls:""},{k:"Japanese",cls:"cat-dom"},{k:"European",cls:"cat-jv"},{k:"American",cls:"cat-imp"},{k:"Asian other",cls:"cat-asia"},{k:"Saved",cls:"cat-fav"}];
+var chipDefs=[{k:"All",cls:""},{k:"Japanese",cls:"cat-dom"},{k:"European",cls:"cat-jv"},{k:"American",cls:"cat-imp"},{k:"Asian other",cls:"cat-asia"},{k:"Chinese",cls:"cat-cn"},{k:"Saved",cls:"cat-fav"}];
 $("catChips").innerHTML=chipDefs.map(function(c){
   var n=c.k==="All"?s.brandCount:(c.k==="Saved"?state.favs.length:(s.byCategory[c.k]||0));
   var label=c.k==="Saved"?"★ Saved"+n:esc(c.k)+" "+n;
@@ -373,6 +380,17 @@ $("resetBtn").addEventListener("click",function(){
   state.q="";state.cat="All";state.bucket="";state.type="";state.price="";state.officialOnly=false;state.sort="default";
   syncControls();render();toast("All filters reset");
 });
+
+/* SECTION: scope switch —— 全球（含中国出口品牌）/ 仅中国以外两个口径，纯 query 参数切换，刷新后所有统计跟随 */
+(function(){
+  var btn=$("scopeBtn");if(!btn)return;
+  btn.textContent=SCOPE_OUTSIDE?"Scope: outside China only · switch to worldwide":"Scope: worldwide incl. Chinese export brands · switch to outside China";
+  btn.addEventListener("click",function(){
+    var p=new URLSearchParams(location.search);
+    if(SCOPE_OUTSIDE)p.delete("scope");else p.set("scope","exchina");
+    location.search=p.toString();
+  });
+})();
 
 /* SECTION: rank & matrix —— 类别 TOP3 / 价格带 TOP5 / 类别×价格 矩阵，全部按统计口径（424 款）聚合 */
 var OFFICIAL_BRANDS=D.brands.filter(function(b){return b.marketStatus!=="parallel"});

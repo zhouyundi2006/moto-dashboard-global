@@ -1,12 +1,13 @@
 # Global 200cc+ Motorcycle Brand Landscape
 
-A static board of motorcycle manufacturers based **outside mainland China** and their current 200cc+ models: 34 brands and 417 models across Japanese, European, American and other Asian makers. Cross-filter by segment / displacement band / body type, search with several words, sort by displacement or name, and browse the brand wall, structural rankings, a body-type × displacement matrix and one static page per brand.
+A static board of **39 motorcycle manufacturers worldwide** and their current 200cc+ models: 490 models across Japanese, European, American, other Asian and Chinese export brands. A scope switch in the model browser keeps a comparable **outside-China-only** view (34 brands / 417 models). Cross-filter by segment / displacement band / body type, search with several words, sort by displacement or name, and browse the brand wall, structural rankings, a body-type × displacement matrix and one static page per brand.
 
 The UI follows the same dark industrial template as the China 250cc+ board: light/dark toggle, brand favourites (localStorage), a right-hand brand drawer, bar charts that filter the model browser on click, a body-type × displacement cross-tab, an A-Z index, a garage wall, and a comparison drawer for 2–3 models. Every entry carries a source link back to the manufacturer's own line-up.
 
 **Scope decisions**
 
-- Only manufacturers headquartered outside mainland China. Chinese brands — CFMOTO, QJMOTOR, Kove, Voge, Zontes, Benelli's parent and others — are out of scope, whatever market they sell in.
+- Manufacturers worldwide are in scope, including mainland-China brands (CFMOTO, QJMOTOR, Voge, Zontes, Kove) whose 200cc+ models are officially offered outside mainland China. Domestic-only models are excluded.
+- The model browser has a **Scope** switch: worldwide (default) vs outside-China-only. Both statistics sets are pre-computed, so charts, rankings and the matrix follow the active scope.
 - Only models of 200cc and above, using the manufacturer's official displacement figure.
 - Trims and model years of one family are merged into one primary model.
 - **No price list in this edition.** List prices differ by market and currency; inventing a single cross-market number would be worse than leaving it out, so price sorting and price bands are disabled.

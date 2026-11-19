@@ -5,7 +5,7 @@ window.MOTO_SPECS = {
     asOf: "2026-11-20",
     source: "",
     sourceNote: "Spec sheets are not part of this edition",
-    totalModels: 417
+    totalModels: 490
   },
   models: {}
 };

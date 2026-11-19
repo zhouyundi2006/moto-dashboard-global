@@ -11,7 +11,7 @@ BASE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(BASE, "data")
 
 BUCKETS = ["200-399cc", "400-699cc", "700-999cc", "1000cc+"]
-CATS = ["Japanese", "European", "American", "Asian other"]
+CATS = ["Japanese", "European", "American", "Asian other", "Chinese"]
 TYPES = ["Sport", "Naked", "Cruiser", "ADV", "Scooter", "Retro", "Touring", "Off-road", "Other"]
 
 
@@ -73,41 +73,51 @@ def main():
         print("OK: %d brands / %d models" % (len(brands), sum(b["modelCount"] for b in brands)))
         return 0
 
-    stats = {
-        "brandCount": len(brands),
-        "brandCountWithModels": sum(1 for b in brands if b["models"]),
-        "modelCount": sum(b["modelCount"] for b in brands),
-        "modelCountAll": sum(b["modelCount"] for b in brands),
-        "parallelBrandCount": 0,
-        "parallelModelCount": 0,
-        "logoCount": sum(1 for b in brands if b["logo"].get("status") == "ok"),
-        "logoMissing": sum(1 for b in brands if b["logo"].get("status") != "ok"),
-        "byCategory": {c: sum(1 for b in brands if b["category"] == c) for c in CATS},
-        "byCategoryModels": {c: sum(b["modelCount"] for b in brands if b["category"] == c) for c in CATS},
-        "byBucket": {k: 0 for k in BUCKETS},
-        "byType": {k: 0 for k in TYPES},
-    }
-    for b in brands:
-        for m in b["models"]:
-            stats["byBucket"][m["bucket"]] += 1
-            stats["byType"][m["type"]] += 1
+    def compute_stats(bs):
+        st = {
+            "brandCount": len(bs),
+            "brandCountWithModels": sum(1 for b in bs if b["models"]),
+            "modelCount": sum(b["modelCount"] for b in bs),
+            "modelCountAll": sum(b["modelCount"] for b in bs),
+            "parallelBrandCount": 0,
+            "parallelModelCount": 0,
+            "logoCount": sum(1 for b in bs if b["logo"].get("status") == "ok"),
+            "logoMissing": sum(1 for b in bs if b["logo"].get("status") != "ok"),
+            "byCategory": {c: sum(1 for b in bs if b["category"] == c) for c in CATS},
+            "byCategoryModels": {c: sum(b["modelCount"] for b in bs if b["category"] == c) for c in CATS},
+            "byBucket": {k: 0 for k in BUCKETS},
+            "byType": {k: 0 for k in TYPES},
+        }
+        for b in bs:
+            for m in b["models"]:
+                st["byBucket"][m["bucket"]] += 1
+                st["byType"][m["type"]] += 1
+        return st
 
-    top_all = sorted(brands, key=lambda b: -b["modelCount"])[:5]
-    top_big = sorted(brands, key=lambda b: -sum(1 for m in b["models"] if m["cc"] >= 1000))[:5]
-    market = {
-        "year": 2026,
-        "items": [
-            {"label": "Brands covered", "value": str(len(brands)), "unit": "", "delta": "", "note": "Japanese / European / American / Asian other"},
-            {"label": "Models listed", "value": str(stats["modelCount"]), "unit": "", "delta": "", "note": "200cc and above · official line-ups"},
-            {"label": "Adventure models", "value": str(stats["byType"].get("ADV", 0)), "unit": "", "delta": "", "note": "ADV body type across all brands"},
-            {"label": "Largest displacement", "value": "2458", "unit": "cc", "delta": "", "note": "Triumph Rocket 3"},
-        ],
-        "leaders250": [b["name"] for b in top_all],
-        "leaders500": [b["name"] for b in top_big],
-        "source": "compiled from official manufacturer line-ups",
-        "leadersSource": "Top 5 by number of 200cc+ models",
-    }
-    out = {"meta": meta, "stats": stats, "market": market, "brands": brands}
+    def compute_market(bs, st, note_categories):
+        top_all = sorted(bs, key=lambda b: -b["modelCount"])[:5]
+        top_big = sorted(bs, key=lambda b: -sum(1 for m in b["models"] if m["cc"] >= 1000))[:5]
+        return {
+            "year": 2026,
+            "items": [
+                {"label": "Brands covered", "value": str(len(bs)), "unit": "", "delta": "", "note": note_categories},
+                {"label": "Models listed", "value": str(st["modelCount"]), "unit": "", "delta": "", "note": "200cc and above · official line-ups"},
+                {"label": "Adventure models", "value": str(st["byType"].get("ADV", 0)), "unit": "", "delta": "", "note": "ADV body type across all brands"},
+                {"label": "Largest displacement", "value": "2458", "unit": "cc", "delta": "", "note": "Triumph Rocket 3"},
+            ],
+            "leaders250": [b["name"] for b in top_all],
+            "leaders500": [b["name"] for b in top_big],
+            "source": "compiled from official manufacturer line-ups",
+            "leadersSource": "Top 5 by number of 200cc+ models",
+        }
+
+    stats = compute_stats(brands)
+    market = compute_market(brands, stats, "Japanese / European / American / Asian other / Chinese export")
+    outside = [b for b in brands if b["category"] != "Chinese"]
+    stats_out = compute_stats(outside)
+    market_out = compute_market(outside, stats_out, "Japanese / European / American / Asian other")
+    out = {"meta": meta, "stats": stats, "statsOutsideChina": stats_out, "market": market,
+           "marketOutsideChina": market_out, "brands": brands}
     json.dump(out, open(os.path.join(DATA, "dashboard.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     open(os.path.join(DATA, "dashboard.js"), "w", encoding="utf-8").write(
         "window.MOTO_DATA = " + json.dumps(out, ensure_ascii=False, separators=(",", ":")) + ";\n"

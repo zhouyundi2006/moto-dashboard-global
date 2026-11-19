@@ -2,9 +2,9 @@
   "meta": {
     "title": "Global 200cc+ Motorcycle Brand Landscape",
     "updated": "2026-11-20",
-    "scope": "Motorcycle brands outside mainland China · models of 200cc and above · current official line-ups",
+    "scope": "Motorcycle brands worldwide, including mainland-China makers where they officially sell outside China · 200cc and above · current official line-ups",
     "principles": [
-      "Covers manufacturers based outside mainland China; Chinese brands (CFMOTO, QJMOTOR, Kove, Voge, Zontes and others) are out of scope.",
+      "Covers manufacturers worldwide, including mainland-China brands whose 200cc+ models are officially offered outside mainland China; domestic-only models are out of scope.",
       "A model is listed only if it belongs to the brand's current official line-up in at least one major market.",
       "Different trims and model years of one family are merged into a single primary model.",
       "Displacement is the manufacturer's official figure in cc.",
@@ -3624,6 +3624,569 @@
       ],
       "note": null,
       "logoDark": false
+    },
+    {
+      "id": "cfmoto",
+      "name": "CFMOTO",
+      "nameEn": "CFMOTO",
+      "company": "Zhejiang CFMOTO Power Co., Ltd.",
+      "category": "Chinese",
+      "subCategory": "Chinese",
+      "group": "Chinese",
+      "marketStatus": "export",
+      "website": "https://www.cfmoto.com/global/",
+      "logo": {
+        "file": "assets/logos/cfmoto.svg",
+        "status": "ok",
+        "source": "https://www.cfmoto.com/global/",
+        "note": null
+      },
+      "uncertain": [],
+      "sources": [
+        "https://www.cfmoto.com/global/"
+      ],
+      "note": "Mainland China maker; only models in the official global line-up are listed.",
+      "logoDark": false,
+      "models": [
+        {
+          "name": "250CL-C",
+          "cc": 250,
+          "type": "Cruiser",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "450CL-C",
+          "cc": 450,
+          "type": "Cruiser",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "550CL-C",
+          "cc": 550,
+          "type": "Cruiser",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "450MT",
+          "cc": 450,
+          "type": "ADV",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "700MT",
+          "cc": 693,
+          "type": "ADV",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "800MT",
+          "cc": 799,
+          "type": "ADV",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "800MT-X",
+          "cc": 799,
+          "type": "ADV",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "800MT-ES",
+          "cc": 799,
+          "type": "ADV",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "1000MT-X",
+          "cc": 998,
+          "type": "ADV",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "250NK",
+          "cc": 250,
+          "type": "Naked",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "300NK",
+          "cc": 292,
+          "type": "Naked",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "450NK",
+          "cc": 450,
+          "type": "Naked",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "675NK",
+          "cc": 675,
+          "type": "Naked",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "800NK",
+          "cc": 799,
+          "type": "Naked",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "250SR",
+          "cc": 250,
+          "type": "Sport",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "300SR",
+          "cc": 292,
+          "type": "Sport",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "450SR",
+          "cc": 450,
+          "type": "Sport",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "500SR",
+          "cc": 500,
+          "type": "Sport",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "500SR VOOM",
+          "cc": 500,
+          "type": "Retro",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "675SR-R",
+          "cc": 675,
+          "type": "Sport",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "750SR-S",
+          "cc": 750,
+          "type": "Sport",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        },
+        {
+          "name": "1250TR-G",
+          "cc": 1279,
+          "type": "Touring",
+          "source": "https://www.cfmoto.com/content/cfmoto/global/motorcycles.html"
+        }
+      ]
+    },
+    {
+      "id": "qjmotor",
+      "name": "QJMOTOR",
+      "nameEn": "QJMOTOR",
+      "company": "Qianjiang Motorcycle Co., Ltd.",
+      "category": "Chinese",
+      "subCategory": "Chinese",
+      "group": "Chinese",
+      "marketStatus": "export",
+      "website": "https://www.qjmotor.com/",
+      "logo": {
+        "file": "assets/logos/qjmotor.png",
+        "status": "ok",
+        "source": "https://www.qjmotor.com/",
+        "note": null
+      },
+      "uncertain": [],
+      "sources": [
+        "https://www.qjmotor.com/"
+      ],
+      "note": "Mainland China maker; export models listed by the UK distributor.",
+      "logoDark": true,
+      "models": [
+        {
+          "name": "SRK 421 RR",
+          "cc": 421,
+          "type": "Sport",
+          "source": "https://www.qjmotor.co.uk/new-bikes"
+        },
+        {
+          "name": "SRK 800",
+          "cc": 799,
+          "type": "Naked",
+          "source": "https://www.qjmotor.co.uk/new-bikes"
+        },
+        {
+          "name": "SRK 800 RR",
+          "cc": 799,
+          "type": "Sport",
+          "source": "https://www.qjmotor.co.uk/new-bikes"
+        },
+        {
+          "name": "SRK 900",
+          "cc": 921,
+          "type": "Naked",
+          "source": "https://www.qjmotor.co.uk/new-bikes"
+        },
+        {
+          "name": "SRK 921",
+          "cc": 921,
+          "type": "Naked",
+          "source": "https://www.qjmotor.co.uk/new-bikes"
+        },
+        {
+          "name": "SRK 921 RR",
+          "cc": 921,
+          "type": "Sport",
+          "source": "https://www.qjmotor.co.uk/new-bikes"
+        },
+        {
+          "name": "SRT 450 RX",
+          "cc": 450,
+          "type": "ADV",
+          "source": "https://www.qjmotor.co.uk/new-bikes"
+        },
+        {
+          "name": "SRT 600 S",
+          "cc": 600,
+          "type": "ADV",
+          "source": "https://www.qjmotor.co.uk/new-bikes"
+        },
+        {
+          "name": "SRT 600 SX",
+          "cc": 600,
+          "type": "ADV",
+          "source": "https://www.qjmotor.co.uk/new-bikes"
+        },
+        {
+          "name": "SRT 900 S",
+          "cc": 921,
+          "type": "ADV",
+          "source": "https://www.qjmotor.co.uk/new-bikes"
+        },
+        {
+          "name": "SRT 900 SX",
+          "cc": 921,
+          "type": "ADV",
+          "source": "https://www.qjmotor.co.uk/new-bikes"
+        },
+        {
+          "name": "SRV 600 V2",
+          "cc": 600,
+          "type": "Cruiser",
+          "source": "https://www.qjmotor.co.uk/new-bikes"
+        },
+        {
+          "name": "SRV 600 V4",
+          "cc": 600,
+          "type": "Cruiser",
+          "source": "https://www.qjmotor.co.uk/new-bikes"
+        },
+        {
+          "name": "SVT 650",
+          "cc": 649,
+          "type": "Cruiser",
+          "source": "https://www.qjmotor.co.uk/new-bikes"
+        },
+        {
+          "name": "SVT 650 X",
+          "cc": 649,
+          "type": "Cruiser",
+          "source": "https://www.qjmotor.co.uk/new-bikes"
+        }
+      ]
+    },
+    {
+      "id": "voge",
+      "name": "Voge",
+      "nameEn": "Voge",
+      "company": "Loncin Motor Co., Ltd.",
+      "category": "Chinese",
+      "subCategory": "Chinese",
+      "group": "Chinese",
+      "marketStatus": "export",
+      "website": "https://www.vogemotorcycles.com/",
+      "logo": {
+        "file": "assets/logos/voge.png",
+        "status": "ok",
+        "source": "https://www.vogemotorcycles.com/",
+        "note": null
+      },
+      "uncertain": [],
+      "sources": [
+        "https://www.vogemotorcycles.com/"
+      ],
+      "note": "Mainland China maker; export models listed by the UK distributor.",
+      "logoDark": false,
+      "models": [
+        {
+          "name": "Rally 300",
+          "cc": 292,
+          "type": "ADV",
+          "source": "https://www.vogemotorcycles.com/new-bikes"
+        },
+        {
+          "name": "SR450X",
+          "cc": 450,
+          "type": "Scooter",
+          "source": "https://www.vogemotorcycles.com/new-bikes"
+        },
+        {
+          "name": "DS525X",
+          "cc": 525,
+          "type": "ADV",
+          "source": "https://www.vogemotorcycles.com/new-bikes"
+        },
+        {
+          "name": "AC525X",
+          "cc": 525,
+          "type": "ADV",
+          "source": "https://www.vogemotorcycles.com/new-bikes"
+        },
+        {
+          "name": "DS625X",
+          "cc": 625,
+          "type": "ADV",
+          "source": "https://www.vogemotorcycles.com/new-bikes"
+        },
+        {
+          "name": "DS 650",
+          "cc": 649,
+          "type": "ADV",
+          "source": "https://www.vogemotorcycles.com/new-bikes"
+        },
+        {
+          "name": "DS800X Rally",
+          "cc": 799,
+          "type": "ADV",
+          "source": "https://www.vogemotorcycles.com/new-bikes"
+        },
+        {
+          "name": "DS900X",
+          "cc": 895,
+          "type": "ADV",
+          "source": "https://www.vogemotorcycles.com/new-bikes"
+        },
+        {
+          "name": "R625",
+          "cc": 625,
+          "type": "Naked",
+          "source": "https://www.vogemotorcycles.com/new-bikes"
+        },
+        {
+          "name": "R800",
+          "cc": 799,
+          "type": "Naked",
+          "source": "https://www.vogemotorcycles.com/new-bikes"
+        },
+        {
+          "name": "RR660S",
+          "cc": 660,
+          "type": "Sport",
+          "source": "https://www.vogemotorcycles.com/new-bikes"
+        },
+        {
+          "name": "RR500S",
+          "cc": 500,
+          "type": "Sport",
+          "source": "https://www.vogemotorcycles.com/new-bikes"
+        },
+        {
+          "name": "CU625",
+          "cc": 625,
+          "type": "Cruiser",
+          "source": "https://www.vogemotorcycles.com/new-bikes"
+        }
+      ]
+    },
+    {
+      "id": "zontes",
+      "name": "Zontes",
+      "nameEn": "Zontes",
+      "company": "Guangdong Tayo Motorcycle Technology Co., Ltd.",
+      "category": "Chinese",
+      "subCategory": "Chinese",
+      "group": "Chinese",
+      "marketStatus": "export",
+      "website": "https://www.zontes.com/",
+      "logo": {
+        "file": "assets/logos/zontes.png",
+        "status": "ok",
+        "source": "https://www.zontes.com/",
+        "note": null
+      },
+      "uncertain": [],
+      "sources": [
+        "https://www.zontes.com/"
+      ],
+      "note": "Mainland China maker; export models listed by the European official distributor.",
+      "logoDark": true,
+      "models": [
+        {
+          "name": "368D",
+          "cc": 368,
+          "type": "Scooter",
+          "source": "https://zontes.eu/"
+        },
+        {
+          "name": "368E",
+          "cc": 368,
+          "type": "Scooter",
+          "source": "https://zontes.eu/"
+        },
+        {
+          "name": "368G",
+          "cc": 368,
+          "type": "Scooter",
+          "source": "https://zontes.eu/"
+        },
+        {
+          "name": "703F",
+          "cc": 699,
+          "type": "ADV",
+          "source": "https://zontes.eu/"
+        },
+        {
+          "name": "703T",
+          "cc": 699,
+          "type": "Touring",
+          "source": "https://zontes.eu/"
+        },
+        {
+          "name": "703R",
+          "cc": 699,
+          "type": "Naked",
+          "source": "https://zontes.eu/"
+        },
+        {
+          "name": "703RR",
+          "cc": 699,
+          "type": "Sport",
+          "source": "https://zontes.eu/"
+        }
+      ]
+    },
+    {
+      "id": "kove",
+      "name": "Kove",
+      "nameEn": "Kove",
+      "company": "Kove Moto Co., Ltd.",
+      "category": "Chinese",
+      "subCategory": "Chinese",
+      "group": "Chinese",
+      "marketStatus": "export",
+      "website": "https://www.kovemoto.com/",
+      "logo": {
+        "file": "assets/logos/kove.png",
+        "status": "ok",
+        "source": "https://www.kovemoto.com/",
+        "note": null
+      },
+      "uncertain": [],
+      "sources": [
+        "https://www.kovemoto.com/"
+      ],
+      "note": "Mainland China maker; models from the official global site.",
+      "logoDark": true,
+      "models": [
+        {
+          "name": "250R",
+          "cc": 250,
+          "type": "Naked",
+          "source": "https://www.kovemoto.com/models"
+        },
+        {
+          "name": "250RR",
+          "cc": 250,
+          "type": "Sport",
+          "source": "https://www.kovemoto.com/models"
+        },
+        {
+          "name": "350R",
+          "cc": 350,
+          "type": "Naked",
+          "source": "https://www.kovemoto.com/models"
+        },
+        {
+          "name": "350RR",
+          "cc": 350,
+          "type": "Sport",
+          "source": "https://www.kovemoto.com/models"
+        },
+        {
+          "name": "450R",
+          "cc": 450,
+          "type": "Off-road",
+          "source": "https://www.kovemoto.com/models"
+        },
+        {
+          "name": "450RR",
+          "cc": 450,
+          "type": "Sport",
+          "source": "https://www.kovemoto.com/models"
+        },
+        {
+          "name": "450 Enduro RE",
+          "cc": 450,
+          "type": "Off-road",
+          "source": "https://www.kovemoto.com/models"
+        },
+        {
+          "name": "450 Rally EX",
+          "cc": 450,
+          "type": "Off-road",
+          "source": "https://www.kovemoto.com/models"
+        },
+        {
+          "name": "450 Rally RE",
+          "cc": 450,
+          "type": "Off-road",
+          "source": "https://www.kovemoto.com/models"
+        },
+        {
+          "name": "525X",
+          "cc": 525,
+          "type": "ADV",
+          "source": "https://www.kovemoto.com/models"
+        },
+        {
+          "name": "625V",
+          "cc": 625,
+          "type": "Cruiser",
+          "source": "https://www.kovemoto.com/models"
+        },
+        {
+          "name": "625X",
+          "cc": 625,
+          "type": "ADV",
+          "source": "https://www.kovemoto.com/models"
+        },
+        {
+          "name": "800X Pro",
+          "cc": 799,
+          "type": "ADV",
+          "source": "https://www.kovemoto.com/models"
+        },
+        {
+          "name": "800X Rally",
+          "cc": 799,
+          "type": "ADV",
+          "source": "https://www.kovemoto.com/models"
+        },
+        {
+          "name": "800X Touring",
+          "cc": 799,
+          "type": "ADV",
+          "source": "https://www.kovemoto.com/models"
+        },
+        {
+          "name": "MX450",
+          "cc": 450,
+          "type": "Off-road",
+          "source": "https://www.kovemoto.com/models"
+        }
+      ]
     }
   ]
 }

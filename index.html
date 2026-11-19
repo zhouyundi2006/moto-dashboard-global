@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Global 200cc+ Motorcycle Brand Landscape</title>
-<meta name="description" content="Every 200cc+ motorcycle brand and model from manufacturers outside mainland China, with displacement, body type and a source for each entry.">
+<meta name="description" content="Every 200cc+ motorcycle brand and model worldwide, including mainland-China makers where they officially sell outside China, with displacement, body type and a source for each entry.">
 <meta property="og:title" content="Global 200cc+ Motorcycle Brand Landscape">
-<meta property="og:description" content="34 brands / 417 models of 200cc+ from outside China, each with a source.">
+<meta property="og:description" content="39 brands / 490 models of 200cc+, each with a source; switch between worldwide and outside-China scope.">
 <meta property="og:type" content="website">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="canonical" href="https://moonquake2004.github.io/moto-dashboard/">
@@ -15,10 +15,10 @@
 {"@context":"https://schema.org","@graph":[
  {"@type":"WebSite","name":"Global 200cc+ Motorcycle Brand Landscape","alternateName":"MOTO GRID",
   "url":"https://moonquake2004.github.io/moto-dashboard/",
-  "description":"Every 200cc+ motorcycle brand and model from manufacturers outside mainland China, with sources, displacement and body type.",
+  "description":"Every 200cc+ motorcycle brand and model worldwide, including Chinese export line-ups, with sources, displacement and body type.",
   "inLanguage":"zh-CN"},
  {"@type":"Dataset","name":"Global 200cc+ motorcycle brand and model dataset","alternateName":"MOTO GRID Dataset",
-  "description":"34 brands / 417 models of 200cc+ from outside China, with displacement, body type, segment and a source for every entry.",
+  "description":"39 brands / 490 models of 200cc+ worldwide, with displacement, body type, segment and a source for every entry.",
   "url":"https://moonquake2004.github.io/moto-dashboard/",
   "keywords":["Motorcycles","200cc","Model database","Global market","Brand board"],
   "spatialCoverage":{"@type":"Place","name":"Global"},
@@ -36,7 +36,7 @@
   --ink:#EDF1F7; --muted:#9AA5B5; --faint:#69748A;
   --accent:#FF4A1F; --accent-soft:rgba(255,74,31,.13);
   --blue:#4D9FFF; --amber:#FFB224; --mint:#2FD6A3; --red:#FF5C5C;
-  --dom:#FF4A1F; --jv:#4D9FFF; --imp:#B78CFF; --asia:#2FD6A3;
+  --dom:#FF4A1F; --jv:#4D9FFF; --imp:#B78CFF; --asia:#2FD6A3; --cn:#E8C33A;
   --logo-bg:#F2F4F7; --scrim:rgba(4,6,10,.62);
   --shadow:0 10px 30px rgba(0,0,0,.35);
   --nav-h:60px;
@@ -47,7 +47,7 @@
   --ink:#151A22; --muted:#5A6577; --faint:#8B95A7;
   --accent:#E83A0E; --accent-soft:rgba(232,58,14,.10);
   --blue:#1F6FEB; --amber:#C77700; --mint:#0E9F77; --red:#D64545;
-  --dom:#E83A0E; --jv:#1F6FEB; --imp:#7B4FD8; --asia:#0F9C74;
+  --dom:#E83A0E; --jv:#1F6FEB; --imp:#7B4FD8; --asia:#0F9C74; --cn:#B8901C;
   --logo-bg:#FFFFFF; --scrim:rgba(15,20,30,.4);
   --shadow:0 8px 24px rgba(20,30,50,.08);
 }
@@ -217,6 +217,7 @@ select{height:42px;border:1px solid var(--line);border-radius:10px;background:va
 .chip-tab.on.cat-jv{background:var(--jv);border-color:var(--jv);color:#fff}
 .chip-tab.on.cat-imp{background:var(--imp);border-color:var(--imp);color:#fff}
 .chip-tab.on.cat-asia{background:var(--asia);border-color:var(--asia);color:#fff}
+.chip-tab.on.cat-cn{background:var(--cn);border-color:var(--cn);color:#14171C}
 .price-row,#budget,#trendPanel{display:none}
 .chip-tab.on.cat-fav{background:var(--amber);border-color:var(--amber);color:#1A1205}
 .f-foot{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:10px}
@@ -638,7 +639,7 @@ table.mx th.rt[data-type]:hover{color:var(--ink)}
     <div>
       <span class="eyebrow">Global Moto Market · 200cc+ Grid</span>
       <h1>Global<em>200cc+</em>Motorcycles<br>Brand landscape</h1>
-      <p class="sub" id="heroSub">Outside mainland China · 200cc+ · official line-ups · every model sourced</p>
+      <p class="sub" id="heroSub">Worldwide incl. Chinese export brands · 200cc+ · official line-ups · every model sourced</p>
       <div class="hero-cta">
         <a class="btn btn-primary" href="#explorer">Open the model browser →</a>
         <a class="btn btn-ghost" href="#garage">Garage</a>
@@ -777,6 +778,7 @@ table.mx th.rt[data-type]:hover{color:var(--ink)}
       <div class="f-foot">
         <div class="result-line" id="resultLine"></div>
         <div class="active-tags" id="activeTags"></div>
+        <button class="link-btn" id="scopeBtn" type="button" title="Switch between worldwide and outside-China scope">Scope</button>
         <button class="link-btn" id="csvBtn" type="button" title="Export the current results as CSV">Export CSV</button>
         <button class="link-btn" id="resetBtn" type="button">Reset all filters</button>
       </div>
