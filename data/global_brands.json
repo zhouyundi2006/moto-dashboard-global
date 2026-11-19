@@ -219,6 +219,12 @@
           "cc": 330,
           "type": "Scooter",
           "source": "https://www.honda.co.uk/motorcycles/range/scooter/sh350i/overview.html"
+        },
+        {
+          "name": "XL750 Transalp",
+          "cc": 755,
+          "type": "ADV",
+          "source": "https://www.honda.co.uk/motorcycles/range/adventure/xl750-transalp/specifications.html"
         }
       ],
       "uncertain": [],
@@ -399,6 +405,12 @@
           "cc": 689,
           "type": "Touring",
           "source": "https://www.yamaha-motor.eu/en/products/motorcycles/sport-touring/tracer-7-gt"
+        },
+        {
+          "name": "Tricity 300",
+          "cc": 292,
+          "type": "Scooter",
+          "source": "https://www.yamaha-motor.eu/en/products/tricity-300"
         }
       ],
       "uncertain": [],
@@ -636,6 +648,12 @@
           "name": "RM-Z250",
           "cc": 249,
           "type": "Off-road",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/"
+        },
+        {
+          "name": "V-Strom 250SX",
+          "cc": 249,
+          "type": "ADV",
           "source": "https://www.suzuki.ca/catalogue/motorcycles/"
         }
       ],

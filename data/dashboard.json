@@ -20,8 +20,8 @@
   "stats": {
     "brandCount": 34,
     "brandCountWithModels": 34,
-    "modelCount": 414,
-    "modelCountAll": 414,
+    "modelCount": 417,
+    "modelCountAll": 417,
     "parallelBrandCount": 0,
     "parallelModelCount": 0,
     "logoCount": 31,
@@ -33,23 +33,23 @@
       "Asian other": 9
     },
     "byCategoryModels": {
-      "Japanese": 130,
+      "Japanese": 133,
       "European": 196,
       "American": 41,
       "Asian other": 47
     },
     "byBucket": {
-      "200-399cc": 101,
+      "200-399cc": 103,
       "400-699cc": 101,
-      "700-999cc": 108,
+      "700-999cc": 109,
       "1000cc+": 104
     },
     "byType": {
       "Sport": 57,
       "Naked": 75,
       "Cruiser": 52,
-      "ADV": 57,
-      "Scooter": 24,
+      "ADV": 59,
+      "Scooter": 25,
       "Retro": 54,
       "Touring": 35,
       "Off-road": 52,
@@ -68,14 +68,14 @@
       },
       {
         "label": "Models listed",
-        "value": "414",
+        "value": "417",
         "unit": "",
         "delta": "",
         "note": "200cc and above · official line-ups"
       },
       {
         "label": "Adventure models",
-        "value": "57",
+        "value": "59",
         "unit": "",
         "delta": "",
         "note": "ADV body type across all brands"
@@ -92,8 +92,8 @@
       "Kawasaki",
       "BMW Motorrad",
       "Suzuki",
-      "KTM",
-      "Honda"
+      "Honda",
+      "KTM"
     ],
     "leaders500": [
       "BMW Motorrad",
@@ -458,6 +458,18 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "XL750 Transalp",
+          "cc": 755,
+          "type": "ADV",
+          "source": "https://www.honda.co.uk/motorcycles/range/adventure/xl750-transalp/specifications.html",
+          "bucket": "700-999cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -466,7 +478,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 28
+      "modelCount": 29
     },
     {
       "id": "yamaha",
@@ -760,6 +772,18 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "Tricity 300",
+          "cc": 292,
+          "type": "Scooter",
+          "source": "https://www.yamaha-motor.eu/en/products/tricity-300",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -768,7 +792,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 23
+      "modelCount": 24
     },
     {
       "id": "suzuki",
@@ -1182,6 +1206,18 @@
           "priceMax": null,
           "priceFrom": false,
           "priceUnit": "USD"
+        },
+        {
+          "name": "V-Strom 250SX",
+          "cc": 249,
+          "type": "ADV",
+          "source": "https://www.suzuki.ca/catalogue/motorcycles/",
+          "bucket": "200-399cc",
+          "price": null,
+          "priceMin": null,
+          "priceMax": null,
+          "priceFrom": false,
+          "priceUnit": "USD"
         }
       ],
       "uncertain": [],
@@ -1190,7 +1226,7 @@
       ],
       "note": null,
       "logoDark": false,
-      "modelCount": 33
+      "modelCount": 34
     },
     {
       "id": "kawasaki",
