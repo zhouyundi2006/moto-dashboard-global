@@ -2930,10 +2930,10 @@
       "marketStatus": "official",
       "website": "https://www.buellmotorcycle.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
-        "note": "Wordmark"
+        "file": "assets/logos/buell.png",
+        "status": "ok",
+        "source": "https://www.buellmotorcycle.com/",
+        "note": null
       },
       "models": [
         {
@@ -2963,7 +2963,7 @@
         "https://www.buellmotorcycle.com/"
       ],
       "note": null,
-      "logoDark": false
+      "logoDark": true
     },
     {
       "id": "janus",
@@ -3291,10 +3291,10 @@
       "marketStatus": "official",
       "website": "https://www.tvsmotor.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
-        "note": "Wordmark"
+        "file": "assets/logos/tvs.svg",
+        "status": "ok",
+        "source": "https://www.tvsmotor.com/",
+        "note": null
       },
       "models": [
         {
@@ -3337,10 +3337,10 @@
       "marketStatus": "official",
       "website": "https://www.jawamotorcycles.com/",
       "logo": {
-        "file": null,
-        "status": "missing",
-        "source": null,
-        "note": "Wordmark"
+        "file": "assets/logos/jawa.png",
+        "status": "ok",
+        "source": "https://www.jawamotorcycles.com/",
+        "note": null
       },
       "models": [
         {
@@ -3383,7 +3383,7 @@
         "https://www.jawamotorcycles.com/"
       ],
       "note": null,
-      "logoDark": false
+      "logoDark": true
     },
     {
       "id": "kymco",

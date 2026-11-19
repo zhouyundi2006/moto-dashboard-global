@@ -11,7 +11,7 @@ The UI follows the same dark industrial template as the China 250cc+ board: ligh
 - Trims and model years of one family are merged into one primary model.
 - **No price list in this edition.** List prices differ by market and currency; inventing a single cross-market number would be worse than leaving it out, so price sorting and price bands are disabled.
 - **No spec sheets in this edition.** The board is about brand and model coverage, displacement and body type.
-- Brand artwork is not copied: brands are shown as wordmarks.
+- Brand marks come from Wikimedia Commons or the manufacturer site and are used for identification only; all trademarks remain with their owners.
 
 Live site: <https://zhouyundi2006.github.io/moto-dashboard-global/>
 
@@ -76,4 +76,4 @@ Pushing to `main` runs `build_global.py --check`, then `build_site.py`, asserts 
 
 - The model list is compiled from manufacturers' current official line-ups. Regional availability differs, so a model shown here may not be sold in every market.
 - Prices and spec sheets are deliberately absent in this first edition; both are the natural next step, market by market.
-- Brands are represented by wordmarks rather than copied logos to keep the published repository free of third-party artwork.
+- Brand marks are used only to identify the manufacturer; every trademark remains with its owner and no endorsement is implied.

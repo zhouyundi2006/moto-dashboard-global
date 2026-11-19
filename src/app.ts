@@ -1348,7 +1348,7 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape"&&$("drawer")
 $("garageDesc").textContent=s.brandCount+" brands · click a card for details · ☆ save locally";
 $("principles").innerHTML=D.meta.principles.map(function(x){return "<li>"+esc(x)+"</li>"}).join("");
 $("sources").textContent=D.meta.sources.join("；");
-$("integrity").textContent="Covering "+s.brandCount+" brands and "+s.modelCount+" models of 200cc+, each linked to the manufacturer's own line-up. No China-based manufacturer is included, and no cross-market price is invented; brands use a wordmark rather than a copied logo.";
+$("integrity").textContent="Covering "+s.brandCount+" brands and "+s.modelCount+" models of 200cc+, each linked to the manufacturer's own line-up. No China-based manufacturer is included, and no cross-market price is invented; brand marks are shown for identification only and remain the property of their owners.";
 $("missingLogos").textContent=D.brands.filter(function(b){return !b.logo.file}).map(function(b){return b.name}).join("、")||"None";
 /* 数据质量体检：把「哪些地方有缺口」直接摆出来，比藏着更可信 */
 (function qualityReport(){
@@ -1368,7 +1368,7 @@ $("missingLogos").textContent=D.brands.filter(function(b){return !b.logo.file}).
     {v:noPrice,l:"No price list in this edition",x:"List prices differ by market; no cross-market price is invented, so price sorting and price bands stay out of scope",warn:true},
     {v:unc,l:"Doubtful entries excluded",x:"Models or specs with conflicting or single-source evidence are noted in the brand drawer and brand page",warn:unc>0},
     {v:srcRate.toFixed(1)+"%",l:"Model source coverage",x:noSource?("Still "+noSource+" models without a source link"):"Every model links back to its origin",warn:noSource>0},
-    {v:logoOk+"/"+D.brands.length,l:"Official logo coverage",x:"This edition uses wordmarks only — no brand artwork is copied"}
+    {v:logoOk+"/"+D.brands.length,l:"Official logo coverage",x:"Official brand marks, shown for identification only"}
     
     
   ];
