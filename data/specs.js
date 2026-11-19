@@ -1,7 +1,5 @@
-/* Model technical specs (buyer-oriented)
-   Source: 58moto.com spec pages, one record per model; keys are "brand|model" and match dashboard.js.
-   Scope: where a model has several trims, the one matching the official list price is used (latest model year, standard trim); variant records the actual trim.
-   Fields not collected are omitted and render as an em dash，不做估算填充。 */
+/* Model technical specs — intentionally empty in this edition.
+   The global board covers brand/model coverage, displacement and body type only. */
 window.MOTO_SPECS = {
   meta: {
     asOf: "2026-11-19",
