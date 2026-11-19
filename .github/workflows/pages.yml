@@ -1,0 +1,46 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # 发布前先跑一遍数据校验：缺 cc、价格解析不了、型号重名、来源缺失都会让构建失败
+      - name: Validate data
+        run: python3 build_global.py --check
+
+      # Assemble _site: index.html (version stamps injected), data files,
+      # one static page per brand, sitemap.xml and robots.txt.
+      - name: Prepare static site
+        run: |
+          set -e
+          python3 build_site.py
+          test -f _site/index.html
+          test -f _site/sitemap.xml
+          test -d _site/brand && test "$(ls _site/brand | wc -l)" -ge 30
+          grep -o 'data/dashboard.js?v=[0-9]*' _site/index.html
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

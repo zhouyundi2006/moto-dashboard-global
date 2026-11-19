@@ -1,0 +1,2623 @@
+{
+  "meta": {
+    "title": "Global 200cc+ Motorcycle Brand Landscape",
+    "updated": "2026-11-19",
+    "scope": "Motorcycle brands outside mainland China · models of 200cc and above · current official line-ups",
+    "principles": [
+      "Covers manufacturers based outside mainland China; Chinese brands (CFMOTO, QJMOTOR, Kove, Voge, Zontes and others) are out of scope.",
+      "A model is listed only if it belongs to the brand's current official line-up in at least one major market.",
+      "Different trims and model years of one family are merged into a single primary model.",
+      "Displacement is the manufacturer's official figure in cc.",
+      "List prices are market-specific and are not shown in this edition; no cross-market price is invented.",
+      "No spec sheet is published in this edition: the board covers brand, model, displacement and body type."
+    ],
+    "sources": [
+      "Official manufacturer model pages and line-ups",
+      "Manufacturer press and product pages",
+      "Regional distributor catalogues used only to confirm that a model is on sale"
+    ]
+  },
+  "brands": [
+    {
+      "id": "honda",
+      "name": "Honda",
+      "nameEn": "Honda",
+      "company": "Honda Motor Co., Ltd.",
+      "category": "Japanese",
+      "subCategory": "Japanese",
+      "group": "Japanese",
+      "marketStatus": "official",
+      "website": "https://www.honda.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "CB300R",
+          "cc": 286,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.honda.com/"
+        },
+        {
+          "name": "CB500 Hornet",
+          "cc": 471,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.honda.com/"
+        },
+        {
+          "name": "CBR500R",
+          "cc": 471,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.honda.com/"
+        },
+        {
+          "name": "NX500",
+          "cc": 471,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.honda.com/"
+        },
+        {
+          "name": "CB650R",
+          "cc": 649,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.honda.com/"
+        },
+        {
+          "name": "CBR650R",
+          "cc": 649,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.honda.com/"
+        },
+        {
+          "name": "CB750 Hornet",
+          "cc": 755,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.honda.com/"
+        },
+        {
+          "name": "Africa Twin CRF1100L",
+          "cc": 1084,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.honda.com/"
+        },
+        {
+          "name": "NT1100",
+          "cc": 1084,
+          "type": "Touring",
+          "price": null,
+          "source": "https://www.honda.com/"
+        },
+        {
+          "name": "Rebel 500",
+          "cc": 471,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.honda.com/"
+        },
+        {
+          "name": "Rebel 1100",
+          "cc": 1084,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.honda.com/"
+        },
+        {
+          "name": "Forza 350",
+          "cc": 330,
+          "type": "Scooter",
+          "price": null,
+          "source": "https://www.honda.com/"
+        },
+        {
+          "name": "ADV350",
+          "cc": 330,
+          "type": "Scooter",
+          "price": null,
+          "source": "https://www.honda.com/"
+        },
+        {
+          "name": "X-ADV 750",
+          "cc": 745,
+          "type": "Scooter",
+          "price": null,
+          "source": "https://www.honda.com/"
+        },
+        {
+          "name": "Gold Wing",
+          "cc": 1833,
+          "type": "Touring",
+          "price": null,
+          "source": "https://www.honda.com/"
+        },
+        {
+          "name": "CB1000 Hornet",
+          "cc": 1000,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.honda.com/"
+        },
+        {
+          "name": "CBR1000RR-R Fireblade",
+          "cc": 1000,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.honda.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.honda.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "yamaha",
+      "name": "Yamaha",
+      "nameEn": "Yamaha",
+      "company": "Yamaha Motor Co., Ltd.",
+      "category": "Japanese",
+      "subCategory": "Japanese",
+      "group": "Japanese",
+      "marketStatus": "official",
+      "website": "https://www.yamaha-motor.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "MT-03",
+          "cc": 321,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "MT-07",
+          "cc": 689,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "MT-09",
+          "cc": 890,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "MT-10",
+          "cc": 998,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "YZF-R3",
+          "cc": 321,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "YZF-R7",
+          "cc": 689,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "YZF-R9",
+          "cc": 890,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "YZF-R1",
+          "cc": 998,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "XSR700",
+          "cc": 689,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "XSR900",
+          "cc": 890,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "Tenere 700",
+          "cc": 689,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "Tracer 7",
+          "cc": 689,
+          "type": "Touring",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "Tracer 9 GT",
+          "cc": 890,
+          "type": "Touring",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "TMAX 560",
+          "cc": 562,
+          "type": "Scooter",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "XMAX 300",
+          "cc": 292,
+          "type": "Scooter",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "Niken",
+          "cc": 890,
+          "type": "Other",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        },
+        {
+          "name": "Bolt R-Spec",
+          "cc": 942,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.yamaha-motor.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.yamaha-motor.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "suzuki",
+      "name": "Suzuki",
+      "nameEn": "Suzuki",
+      "company": "Suzuki Motor Corporation",
+      "category": "Japanese",
+      "subCategory": "Japanese",
+      "group": "Japanese",
+      "marketStatus": "official",
+      "website": "https://www.globalsuzuki.com/motorcycle/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "GSX-8S",
+          "cc": 776,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.globalsuzuki.com/motorcycle/"
+        },
+        {
+          "name": "GSX-8R",
+          "cc": 776,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.globalsuzuki.com/motorcycle/"
+        },
+        {
+          "name": "GSX-R750",
+          "cc": 750,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.globalsuzuki.com/motorcycle/"
+        },
+        {
+          "name": "GSX-R1000R",
+          "cc": 1000,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.globalsuzuki.com/motorcycle/"
+        },
+        {
+          "name": "GSX-S1000",
+          "cc": 999,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.globalsuzuki.com/motorcycle/"
+        },
+        {
+          "name": "GSX-S950",
+          "cc": 999,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.globalsuzuki.com/motorcycle/"
+        },
+        {
+          "name": "V-Strom 650",
+          "cc": 645,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.globalsuzuki.com/motorcycle/"
+        },
+        {
+          "name": "V-Strom 800DE",
+          "cc": 776,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.globalsuzuki.com/motorcycle/"
+        },
+        {
+          "name": "V-Strom 1050DE",
+          "cc": 1037,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.globalsuzuki.com/motorcycle/"
+        },
+        {
+          "name": "SV650",
+          "cc": 645,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.globalsuzuki.com/motorcycle/"
+        },
+        {
+          "name": "Katana",
+          "cc": 999,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.globalsuzuki.com/motorcycle/"
+        },
+        {
+          "name": "Hayabusa",
+          "cc": 1340,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.globalsuzuki.com/motorcycle/"
+        },
+        {
+          "name": "Burgman 400",
+          "cc": 400,
+          "type": "Scooter",
+          "price": null,
+          "source": "https://www.globalsuzuki.com/motorcycle/"
+        },
+        {
+          "name": "DR-Z4S",
+          "cc": 398,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.globalsuzuki.com/motorcycle/"
+        },
+        {
+          "name": "RM-Z450",
+          "cc": 449,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.globalsuzuki.com/motorcycle/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.globalsuzuki.com/motorcycle/"
+      ],
+      "note": null
+    },
+    {
+      "id": "kawasaki",
+      "name": "Kawasaki",
+      "nameEn": "Kawasaki",
+      "company": "Kawasaki Heavy Industries, Ltd.",
+      "category": "Japanese",
+      "subCategory": "Japanese",
+      "group": "Japanese",
+      "marketStatus": "official",
+      "website": "https://www.kawasaki.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Ninja 400",
+          "cc": 399,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "Ninja 500",
+          "cc": 451,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "Ninja 650",
+          "cc": 649,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "Ninja ZX-4RR",
+          "cc": 399,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "Ninja ZX-6R",
+          "cc": 636,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "Ninja ZX-10R",
+          "cc": 998,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "Ninja H2",
+          "cc": 998,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "Z400",
+          "cc": 399,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "Z500",
+          "cc": 451,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "Z650",
+          "cc": 649,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "Z900",
+          "cc": 948,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "Z900RS",
+          "cc": 948,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "Versys 650",
+          "cc": 649,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "Versys 1100",
+          "cc": 1099,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "Vulcan S",
+          "cc": 649,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "Eliminator 450",
+          "cc": 451,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "W800",
+          "cc": 773,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        },
+        {
+          "name": "KLR650",
+          "cc": 652,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.kawasaki.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.kawasaki.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "bmw",
+      "name": "BMW Motorrad",
+      "nameEn": "BMW Motorrad",
+      "company": "BMW Motorrad",
+      "category": "European",
+      "subCategory": "European",
+      "group": "European",
+      "marketStatus": "official",
+      "website": "https://www.bmw-motorrad.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "G 310 R",
+          "cc": 313,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.bmw-motorrad.com/"
+        },
+        {
+          "name": "G 310 GS",
+          "cc": 313,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.bmw-motorrad.com/"
+        },
+        {
+          "name": "F 800 GS",
+          "cc": 895,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.bmw-motorrad.com/"
+        },
+        {
+          "name": "F 900 GS",
+          "cc": 895,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.bmw-motorrad.com/"
+        },
+        {
+          "name": "F 900 R",
+          "cc": 895,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.bmw-motorrad.com/"
+        },
+        {
+          "name": "R 12 nineT",
+          "cc": 1170,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.bmw-motorrad.com/"
+        },
+        {
+          "name": "R 1300 GS",
+          "cc": 1300,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.bmw-motorrad.com/"
+        },
+        {
+          "name": "R 1300 GS Adventure",
+          "cc": 1300,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.bmw-motorrad.com/"
+        },
+        {
+          "name": "S 1000 R",
+          "cc": 1000,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.bmw-motorrad.com/"
+        },
+        {
+          "name": "S 1000 RR",
+          "cc": 1000,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.bmw-motorrad.com/"
+        },
+        {
+          "name": "S 1000 XR",
+          "cc": 1000,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.bmw-motorrad.com/"
+        },
+        {
+          "name": "M 1000 R",
+          "cc": 1000,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.bmw-motorrad.com/"
+        },
+        {
+          "name": "K 1600 GT",
+          "cc": 1649,
+          "type": "Touring",
+          "price": null,
+          "source": "https://www.bmw-motorrad.com/"
+        },
+        {
+          "name": "C 400 GT",
+          "cc": 350,
+          "type": "Scooter",
+          "price": null,
+          "source": "https://www.bmw-motorrad.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.bmw-motorrad.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "ducati",
+      "name": "Ducati",
+      "nameEn": "Ducati",
+      "company": "Ducati Motor Holding S.p.A.",
+      "category": "European",
+      "subCategory": "European",
+      "group": "European",
+      "marketStatus": "official",
+      "website": "https://www.ducati.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Monster",
+          "cc": 937,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.ducati.com/"
+        },
+        {
+          "name": "Panigale V2",
+          "cc": 890,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.ducati.com/"
+        },
+        {
+          "name": "Panigale V4",
+          "cc": 1103,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.ducati.com/"
+        },
+        {
+          "name": "Streetfighter V4",
+          "cc": 1103,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.ducati.com/"
+        },
+        {
+          "name": "Multistrada V4",
+          "cc": 1158,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.ducati.com/"
+        },
+        {
+          "name": "Multistrada V2",
+          "cc": 890,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.ducati.com/"
+        },
+        {
+          "name": "DesertX",
+          "cc": 937,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.ducati.com/"
+        },
+        {
+          "name": "Hypermotard 698 Mono",
+          "cc": 659,
+          "type": "Other",
+          "price": null,
+          "source": "https://www.ducati.com/"
+        },
+        {
+          "name": "Scrambler Icon",
+          "cc": 803,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.ducati.com/"
+        },
+        {
+          "name": "Diavel V4",
+          "cc": 1158,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.ducati.com/"
+        },
+        {
+          "name": "Supersport 950",
+          "cc": 937,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.ducati.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.ducati.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "triumph",
+      "name": "Triumph",
+      "nameEn": "Triumph",
+      "company": "Triumph Motorcycles Ltd",
+      "category": "European",
+      "subCategory": "European",
+      "group": "European",
+      "marketStatus": "official",
+      "website": "https://www.triumphmotorcycles.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Speed 400",
+          "cc": 398,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.triumphmotorcycles.com/"
+        },
+        {
+          "name": "Scrambler 400X",
+          "cc": 398,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.triumphmotorcycles.com/"
+        },
+        {
+          "name": "Trident 660",
+          "cc": 660,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.triumphmotorcycles.com/"
+        },
+        {
+          "name": "Tiger Sport 660",
+          "cc": 660,
+          "type": "Touring",
+          "price": null,
+          "source": "https://www.triumphmotorcycles.com/"
+        },
+        {
+          "name": "Daytona 660",
+          "cc": 660,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.triumphmotorcycles.com/"
+        },
+        {
+          "name": "Street Triple 765",
+          "cc": 765,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.triumphmotorcycles.com/"
+        },
+        {
+          "name": "Speed Triple 1200",
+          "cc": 1160,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.triumphmotorcycles.com/"
+        },
+        {
+          "name": "Tiger 900",
+          "cc": 888,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.triumphmotorcycles.com/"
+        },
+        {
+          "name": "Tiger 1200",
+          "cc": 1160,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.triumphmotorcycles.com/"
+        },
+        {
+          "name": "Bonneville T120",
+          "cc": 1200,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.triumphmotorcycles.com/"
+        },
+        {
+          "name": "Speed Twin 900",
+          "cc": 900,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.triumphmotorcycles.com/"
+        },
+        {
+          "name": "Speed Twin 1200",
+          "cc": 1200,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.triumphmotorcycles.com/"
+        },
+        {
+          "name": "Scrambler 1200",
+          "cc": 1200,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.triumphmotorcycles.com/"
+        },
+        {
+          "name": "Bonnie Bobber",
+          "cc": 1200,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.triumphmotorcycles.com/"
+        },
+        {
+          "name": "Rocket 3",
+          "cc": 2458,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.triumphmotorcycles.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.triumphmotorcycles.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "ktm",
+      "name": "KTM",
+      "nameEn": "KTM",
+      "company": "KTM AG",
+      "category": "European",
+      "subCategory": "European",
+      "group": "European",
+      "marketStatus": "official",
+      "website": "https://www.ktm.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "250 Duke",
+          "cc": 250,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.ktm.com/"
+        },
+        {
+          "name": "390 Duke",
+          "cc": 399,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.ktm.com/"
+        },
+        {
+          "name": "790 Duke",
+          "cc": 799,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.ktm.com/"
+        },
+        {
+          "name": "890 Duke R",
+          "cc": 889,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.ktm.com/"
+        },
+        {
+          "name": "990 Duke",
+          "cc": 947,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.ktm.com/"
+        },
+        {
+          "name": "1290 Super Duke R",
+          "cc": 1301,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.ktm.com/"
+        },
+        {
+          "name": "RC 390",
+          "cc": 399,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.ktm.com/"
+        },
+        {
+          "name": "390 Adventure",
+          "cc": 399,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.ktm.com/"
+        },
+        {
+          "name": "790 Adventure",
+          "cc": 799,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.ktm.com/"
+        },
+        {
+          "name": "890 Adventure",
+          "cc": 889,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.ktm.com/"
+        },
+        {
+          "name": "1390 Super Adventure",
+          "cc": 1350,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.ktm.com/"
+        },
+        {
+          "name": "690 SMC R",
+          "cc": 693,
+          "type": "Other",
+          "price": null,
+          "source": "https://www.ktm.com/"
+        },
+        {
+          "name": "690 Enduro R",
+          "cc": 693,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.ktm.com/"
+        },
+        {
+          "name": "500 EXC-F",
+          "cc": 510,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.ktm.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.ktm.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "husqvarna",
+      "name": "Husqvarna Motorcycles",
+      "nameEn": "Husqvarna Motorcycles",
+      "company": "Husqvarna Motorcycles GmbH",
+      "category": "European",
+      "subCategory": "European",
+      "group": "European",
+      "marketStatus": "official",
+      "website": "https://www.husqvarna-motorcycles.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Svartpilen 250",
+          "cc": 250,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.husqvarna-motorcycles.com/"
+        },
+        {
+          "name": "Vitpilen 250",
+          "cc": 250,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.husqvarna-motorcycles.com/"
+        },
+        {
+          "name": "Svartpilen 401",
+          "cc": 399,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.husqvarna-motorcycles.com/"
+        },
+        {
+          "name": "Vitpilen 401",
+          "cc": 399,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.husqvarna-motorcycles.com/"
+        },
+        {
+          "name": "Svartpilen 801",
+          "cc": 799,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.husqvarna-motorcycles.com/"
+        },
+        {
+          "name": "Norden 901",
+          "cc": 889,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.husqvarna-motorcycles.com/"
+        },
+        {
+          "name": "701 Enduro",
+          "cc": 693,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.husqvarna-motorcycles.com/"
+        },
+        {
+          "name": "701 Supermoto",
+          "cc": 693,
+          "type": "Other",
+          "price": null,
+          "source": "https://www.husqvarna-motorcycles.com/"
+        },
+        {
+          "name": "TX 300",
+          "cc": 293,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.husqvarna-motorcycles.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.husqvarna-motorcycles.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "aprilia",
+      "name": "Aprilia",
+      "nameEn": "Aprilia",
+      "company": "Aprilia S.p.A.",
+      "category": "European",
+      "subCategory": "European",
+      "group": "European",
+      "marketStatus": "official",
+      "website": "https://www.aprilia.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "RS 457",
+          "cc": 457,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.aprilia.com/"
+        },
+        {
+          "name": "Tuono 457",
+          "cc": 457,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.aprilia.com/"
+        },
+        {
+          "name": "RS 660",
+          "cc": 659,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.aprilia.com/"
+        },
+        {
+          "name": "Tuono 660",
+          "cc": 659,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.aprilia.com/"
+        },
+        {
+          "name": "RSV4",
+          "cc": 1099,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.aprilia.com/"
+        },
+        {
+          "name": "Tuono V4",
+          "cc": 1099,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.aprilia.com/"
+        },
+        {
+          "name": "Tuareg 660",
+          "cc": 659,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.aprilia.com/"
+        },
+        {
+          "name": "Tuareg 457",
+          "cc": 457,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.aprilia.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.aprilia.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "motoguzzi",
+      "name": "Moto Guzzi",
+      "nameEn": "Moto Guzzi",
+      "company": "Moto Guzzi S.p.A.",
+      "category": "European",
+      "subCategory": "European",
+      "group": "European",
+      "marketStatus": "official",
+      "website": "https://www.motoguzzi.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "V7 Stone",
+          "cc": 853,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.motoguzzi.com/"
+        },
+        {
+          "name": "V7 Special",
+          "cc": 853,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.motoguzzi.com/"
+        },
+        {
+          "name": "V9 Bobber",
+          "cc": 853,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.motoguzzi.com/"
+        },
+        {
+          "name": "V85 TT",
+          "cc": 853,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.motoguzzi.com/"
+        },
+        {
+          "name": "V100 Mandello",
+          "cc": 1042,
+          "type": "Touring",
+          "price": null,
+          "source": "https://www.motoguzzi.com/"
+        },
+        {
+          "name": "Stelvio",
+          "cc": 1042,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.motoguzzi.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.motoguzzi.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "mv",
+      "name": "MV Agusta",
+      "nameEn": "MV Agusta",
+      "company": "MV Agusta Motor S.p.A.",
+      "category": "European",
+      "subCategory": "European",
+      "group": "European",
+      "marketStatus": "official",
+      "website": "https://www.mvagusta.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Brutale 800",
+          "cc": 798,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.mvagusta.com/"
+        },
+        {
+          "name": "Brutale 1000 RR",
+          "cc": 998,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.mvagusta.com/"
+        },
+        {
+          "name": "Dragster 800",
+          "cc": 798,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.mvagusta.com/"
+        },
+        {
+          "name": "Turismo Veloce 800",
+          "cc": 798,
+          "type": "Touring",
+          "price": null,
+          "source": "https://www.mvagusta.com/"
+        },
+        {
+          "name": "F3 800",
+          "cc": 798,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.mvagusta.com/"
+        },
+        {
+          "name": "Superveloce 800",
+          "cc": 798,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.mvagusta.com/"
+        },
+        {
+          "name": "Superveloce 1000",
+          "cc": 998,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.mvagusta.com/"
+        },
+        {
+          "name": "Enduro Veloce",
+          "cc": 931,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.mvagusta.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.mvagusta.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "benelli",
+      "name": "Benelli",
+      "nameEn": "Benelli",
+      "company": "Benelli Q.J. S.r.l.",
+      "category": "European",
+      "subCategory": "European",
+      "group": "European",
+      "marketStatus": "official",
+      "website": "https://www.benelli.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "TRK 502",
+          "cc": 500,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.benelli.com/"
+        },
+        {
+          "name": "TRK 702",
+          "cc": 693,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.benelli.com/"
+        },
+        {
+          "name": "Leoncino 500",
+          "cc": 500,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.benelli.com/"
+        },
+        {
+          "name": "Leoncino 800",
+          "cc": 754,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.benelli.com/"
+        },
+        {
+          "name": "BN 302",
+          "cc": 300,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.benelli.com/"
+        },
+        {
+          "name": "TNT 600",
+          "cc": 600,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.benelli.com/"
+        },
+        {
+          "name": "752S",
+          "cc": 754,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.benelli.com/"
+        },
+        {
+          "name": "Imperiale 400",
+          "cc": 374,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.benelli.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.benelli.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "morini",
+      "name": "Moto Morini",
+      "nameEn": "Moto Morini",
+      "company": "Moto Morini S.p.A.",
+      "category": "European",
+      "subCategory": "European",
+      "group": "European",
+      "marketStatus": "official",
+      "website": "https://www.motomorini.eu/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Seiemmezzo 6½",
+          "cc": 649,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.motomorini.eu/"
+        },
+        {
+          "name": "X-Cape 650",
+          "cc": 649,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.motomorini.eu/"
+        },
+        {
+          "name": "X-Cape 700",
+          "cc": 693,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.motomorini.eu/"
+        },
+        {
+          "name": "Calibro 700",
+          "cc": 693,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.motomorini.eu/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.motomorini.eu/"
+      ],
+      "note": null
+    },
+    {
+      "id": "fantic",
+      "name": "Fantic",
+      "nameEn": "Fantic",
+      "company": "Fantic Motor S.p.A.",
+      "category": "European",
+      "subCategory": "European",
+      "group": "European",
+      "marketStatus": "official",
+      "website": "https://www.fanticmotor.it/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Caballero 500",
+          "cc": 449,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.fanticmotor.it/"
+        },
+        {
+          "name": "Caballero 700",
+          "cc": 693,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.fanticmotor.it/"
+        },
+        {
+          "name": "XEF 250",
+          "cc": 250,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.fanticmotor.it/"
+        },
+        {
+          "name": "XEF 450",
+          "cc": 450,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.fanticmotor.it/"
+        },
+        {
+          "name": "XXF 450",
+          "cc": 450,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.fanticmotor.it/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.fanticmotor.it/"
+      ],
+      "note": null
+    },
+    {
+      "id": "beta",
+      "name": "Beta",
+      "nameEn": "Beta",
+      "company": "Beta Motor S.p.A.",
+      "category": "European",
+      "subCategory": "European",
+      "group": "European",
+      "marketStatus": "official",
+      "website": "https://www.betamotor.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "RR 250",
+          "cc": 250,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.betamotor.com/"
+        },
+        {
+          "name": "RR 300",
+          "cc": 300,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.betamotor.com/"
+        },
+        {
+          "name": "RR 390",
+          "cc": 390,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.betamotor.com/"
+        },
+        {
+          "name": "RR 450",
+          "cc": 450,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.betamotor.com/"
+        },
+        {
+          "name": "RR 480",
+          "cc": 480,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.betamotor.com/"
+        },
+        {
+          "name": "Xtrainer 300",
+          "cc": 300,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.betamotor.com/"
+        },
+        {
+          "name": "Alp 4.0",
+          "cc": 350,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.betamotor.com/"
+        },
+        {
+          "name": "RS 450",
+          "cc": 450,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.betamotor.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.betamotor.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "sherco",
+      "name": "Sherco",
+      "nameEn": "Sherco",
+      "company": "Sherco Moto S.A.",
+      "category": "European",
+      "subCategory": "European",
+      "group": "European",
+      "marketStatus": "official",
+      "website": "https://www.sherco.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "SE 250",
+          "cc": 250,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.sherco.com/"
+        },
+        {
+          "name": "SE 300",
+          "cc": 300,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.sherco.com/"
+        },
+        {
+          "name": "SCF 250",
+          "cc": 250,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.sherco.com/"
+        },
+        {
+          "name": "SCF 450",
+          "cc": 450,
+          "type": "Off-road",
+          "price": null,
+          "source": "https://www.sherco.com/"
+        },
+        {
+          "name": "SM 250",
+          "cc": 250,
+          "type": "Other",
+          "price": null,
+          "source": "https://www.sherco.com/"
+        },
+        {
+          "name": "SM 450",
+          "cc": 450,
+          "type": "Other",
+          "price": null,
+          "source": "https://www.sherco.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.sherco.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "norton",
+      "name": "Norton",
+      "nameEn": "Norton",
+      "company": "Norton Motorcycle Company",
+      "category": "European",
+      "subCategory": "European",
+      "group": "European",
+      "marketStatus": "official",
+      "website": "https://www.nortonmotorcycles.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Commando 961",
+          "cc": 961,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.nortonmotorcycles.com/"
+        },
+        {
+          "name": "V4SV",
+          "cc": 1200,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.nortonmotorcycles.com/"
+        },
+        {
+          "name": "V4CR",
+          "cc": 1200,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.nortonmotorcycles.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.nortonmotorcycles.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "bsa",
+      "name": "BSA",
+      "nameEn": "BSA",
+      "company": "BSA Motorcycles",
+      "category": "European",
+      "subCategory": "European",
+      "group": "European",
+      "marketStatus": "official",
+      "website": "https://www.bsamotorcycles.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Gold Star 650",
+          "cc": 652,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.bsamotorcycles.com/"
+        },
+        {
+          "name": "Scrambler 650",
+          "cc": 652,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.bsamotorcycles.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.bsamotorcycles.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "harley",
+      "name": "Harley-Davidson",
+      "nameEn": "Harley-Davidson",
+      "company": "Harley-Davidson Motor Company",
+      "category": "American",
+      "subCategory": "American",
+      "group": "American",
+      "marketStatus": "official",
+      "website": "https://www.harley-davidson.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Nightster",
+          "cc": 975,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.harley-davidson.com/"
+        },
+        {
+          "name": "Sportster S",
+          "cc": 1252,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.harley-davidson.com/"
+        },
+        {
+          "name": "Softail Standard",
+          "cc": 1746,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.harley-davidson.com/"
+        },
+        {
+          "name": "Street Bob 117",
+          "cc": 1746,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.harley-davidson.com/"
+        },
+        {
+          "name": "Fat Bob 114",
+          "cc": 1868,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.harley-davidson.com/"
+        },
+        {
+          "name": "Low Rider S 117",
+          "cc": 1923,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.harley-davidson.com/"
+        },
+        {
+          "name": "Heritage Classic 117",
+          "cc": 1868,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.harley-davidson.com/"
+        },
+        {
+          "name": "Fat Boy 114",
+          "cc": 1868,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.harley-davidson.com/"
+        },
+        {
+          "name": "Breakout 117",
+          "cc": 1923,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.harley-davidson.com/"
+        },
+        {
+          "name": "Road Glide 117",
+          "cc": 1923,
+          "type": "Touring",
+          "price": null,
+          "source": "https://www.harley-davidson.com/"
+        },
+        {
+          "name": "Street Glide 117",
+          "cc": 1923,
+          "type": "Touring",
+          "price": null,
+          "source": "https://www.harley-davidson.com/"
+        },
+        {
+          "name": "Pan America 1250",
+          "cc": 1252,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.harley-davidson.com/"
+        },
+        {
+          "name": "Road King Special",
+          "cc": 1868,
+          "type": "Touring",
+          "price": null,
+          "source": "https://www.harley-davidson.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.harley-davidson.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "indian",
+      "name": "Indian Motorcycle",
+      "nameEn": "Indian Motorcycle",
+      "company": "Indian Motorcycle Company",
+      "category": "American",
+      "subCategory": "American",
+      "group": "American",
+      "marketStatus": "official",
+      "website": "https://www.indianmotorcycle.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Scout Bobber",
+          "cc": 1250,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.indianmotorcycle.com/"
+        },
+        {
+          "name": "Scout Sixty",
+          "cc": 999,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.indianmotorcycle.com/"
+        },
+        {
+          "name": "Chief Dark Horse",
+          "cc": 1890,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.indianmotorcycle.com/"
+        },
+        {
+          "name": "Super Chief",
+          "cc": 1890,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.indianmotorcycle.com/"
+        },
+        {
+          "name": "Chieftain",
+          "cc": 1890,
+          "type": "Touring",
+          "price": null,
+          "source": "https://www.indianmotorcycle.com/"
+        },
+        {
+          "name": "Challenger",
+          "cc": 1768,
+          "type": "Touring",
+          "price": null,
+          "source": "https://www.indianmotorcycle.com/"
+        },
+        {
+          "name": "Pursuit",
+          "cc": 1768,
+          "type": "Touring",
+          "price": null,
+          "source": "https://www.indianmotorcycle.com/"
+        },
+        {
+          "name": "FTR 1200",
+          "cc": 1203,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.indianmotorcycle.com/"
+        },
+        {
+          "name": "Roadmaster",
+          "cc": 1890,
+          "type": "Touring",
+          "price": null,
+          "source": "https://www.indianmotorcycle.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.indianmotorcycle.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "buell",
+      "name": "Buell",
+      "nameEn": "Buell",
+      "company": "Buell Motorcycle Company",
+      "category": "American",
+      "subCategory": "American",
+      "group": "American",
+      "marketStatus": "official",
+      "website": "https://www.buellmotorcycle.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Hammerhead 1190",
+          "cc": 1190,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.buellmotorcycle.com/"
+        },
+        {
+          "name": "SuperTouring 1190",
+          "cc": 1190,
+          "type": "Touring",
+          "price": null,
+          "source": "https://www.buellmotorcycle.com/"
+        },
+        {
+          "name": "Baja 1190",
+          "cc": 1190,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.buellmotorcycle.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.buellmotorcycle.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "janus",
+      "name": "Janus Motorcycles",
+      "nameEn": "Janus Motorcycles",
+      "company": "Janus Motorcycles",
+      "category": "American",
+      "subCategory": "American",
+      "group": "American",
+      "marketStatus": "official",
+      "website": "https://janusmotorcycles.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Halcyon 450",
+          "cc": 450,
+          "type": "Retro",
+          "price": null,
+          "source": "https://janusmotorcycles.com/"
+        },
+        {
+          "name": "Gryffin 250",
+          "cc": 250,
+          "type": "Retro",
+          "price": null,
+          "source": "https://janusmotorcycles.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://janusmotorcycles.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "arch",
+      "name": "Arch Motorcycle",
+      "nameEn": "Arch Motorcycle",
+      "company": "Arch Motorcycle Company, LLC",
+      "category": "American",
+      "subCategory": "American",
+      "group": "American",
+      "marketStatus": "official",
+      "website": "https://archmotorcycle.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "KR1",
+          "cc": 1200,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://archmotorcycle.com/"
+        },
+        {
+          "name": "Method 143",
+          "cc": 1430,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://archmotorcycle.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://archmotorcycle.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "royalenfield",
+      "name": "Royal Enfield",
+      "nameEn": "Royal Enfield",
+      "company": "Royal Enfield",
+      "category": "Asian other",
+      "subCategory": "Asian other",
+      "group": "Asian other",
+      "marketStatus": "official",
+      "website": "https://www.royalenfield.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Hunter 350",
+          "cc": 349,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.royalenfield.com/"
+        },
+        {
+          "name": "Classic 350",
+          "cc": 349,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.royalenfield.com/"
+        },
+        {
+          "name": "Bullet 350",
+          "cc": 349,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.royalenfield.com/"
+        },
+        {
+          "name": "Meteor 350",
+          "cc": 349,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.royalenfield.com/"
+        },
+        {
+          "name": "Himalayan 450",
+          "cc": 452,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.royalenfield.com/"
+        },
+        {
+          "name": "Scram 440",
+          "cc": 440,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.royalenfield.com/"
+        },
+        {
+          "name": "Guerrilla 450",
+          "cc": 452,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.royalenfield.com/"
+        },
+        {
+          "name": "Interceptor 650",
+          "cc": 648,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.royalenfield.com/"
+        },
+        {
+          "name": "Continental GT 650",
+          "cc": 648,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.royalenfield.com/"
+        },
+        {
+          "name": "Super Meteor 650",
+          "cc": 648,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.royalenfield.com/"
+        },
+        {
+          "name": "Shotgun 650",
+          "cc": 648,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.royalenfield.com/"
+        },
+        {
+          "name": "Bear 650",
+          "cc": 648,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.royalenfield.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.royalenfield.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "hero",
+      "name": "Hero MotoCorp",
+      "nameEn": "Hero MotoCorp",
+      "company": "Hero MotoCorp Ltd",
+      "category": "Asian other",
+      "subCategory": "Asian other",
+      "group": "Asian other",
+      "marketStatus": "official",
+      "website": "https://www.heromotocorp.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Karizma 210",
+          "cc": 210,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.heromotocorp.com/"
+        },
+        {
+          "name": "Xpulse 210",
+          "cc": 210,
+          "type": "ADV",
+          "price": null,
+          "source": "https://www.heromotocorp.com/"
+        },
+        {
+          "name": "Mavrick 440",
+          "cc": 440,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.heromotocorp.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.heromotocorp.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "bajaj",
+      "name": "Bajaj Auto",
+      "nameEn": "Bajaj Auto",
+      "company": "Bajaj Auto Ltd",
+      "category": "Asian other",
+      "subCategory": "Asian other",
+      "group": "Asian other",
+      "marketStatus": "official",
+      "website": "https://www.bajajauto.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Dominar 400",
+          "cc": 373,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.bajajauto.com/"
+        },
+        {
+          "name": "Pulsar NS400Z",
+          "cc": 373,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.bajajauto.com/"
+        },
+        {
+          "name": "Pulsar 250",
+          "cc": 249,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.bajajauto.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.bajajauto.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "tvs",
+      "name": "TVS Motor",
+      "nameEn": "TVS Motor",
+      "company": "TVS Motor Company",
+      "category": "Asian other",
+      "subCategory": "Asian other",
+      "group": "Asian other",
+      "marketStatus": "official",
+      "website": "https://www.tvsmotor.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Apache RR310",
+          "cc": 312,
+          "type": "Sport",
+          "price": null,
+          "source": "https://www.tvsmotor.com/"
+        },
+        {
+          "name": "Apache RTR 310",
+          "cc": 312,
+          "type": "Naked",
+          "price": null,
+          "source": "https://www.tvsmotor.com/"
+        },
+        {
+          "name": "Ronin 225",
+          "cc": 225,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.tvsmotor.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.tvsmotor.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "jawa",
+      "name": "Jawa",
+      "nameEn": "Jawa",
+      "company": "Jawa Motorcycles (Classic Legends)",
+      "category": "Asian other",
+      "subCategory": "Asian other",
+      "group": "Asian other",
+      "marketStatus": "official",
+      "website": "https://www.jawamotorcycles.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Jawa 350",
+          "cc": 334,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.jawamotorcycles.com/"
+        },
+        {
+          "name": "42 Bobber",
+          "cc": 334,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.jawamotorcycles.com/"
+        },
+        {
+          "name": "Perak",
+          "cc": 334,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.jawamotorcycles.com/"
+        },
+        {
+          "name": "42 FJ",
+          "cc": 334,
+          "type": "Retro",
+          "price": null,
+          "source": "https://www.jawamotorcycles.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.jawamotorcycles.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "kymco",
+      "name": "KYMCO",
+      "nameEn": "KYMCO",
+      "company": "KYMCO Motor Co., Ltd.",
+      "category": "Asian other",
+      "subCategory": "Asian other",
+      "group": "Asian other",
+      "marketStatus": "official",
+      "website": "https://www.kymco.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "AK 550",
+          "cc": 550,
+          "type": "Scooter",
+          "price": null,
+          "source": "https://www.kymco.com/"
+        },
+        {
+          "name": "Xciting 400",
+          "cc": 400,
+          "type": "Scooter",
+          "price": null,
+          "source": "https://www.kymco.com/"
+        },
+        {
+          "name": "Downtown 350",
+          "cc": 320,
+          "type": "Scooter",
+          "price": null,
+          "source": "https://www.kymco.com/"
+        },
+        {
+          "name": "CV3",
+          "cc": 550,
+          "type": "Scooter",
+          "price": null,
+          "source": "https://www.kymco.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.kymco.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "sym",
+      "name": "SYM",
+      "nameEn": "SYM",
+      "company": "SYM Motor Co., Ltd.",
+      "category": "Asian other",
+      "subCategory": "Asian other",
+      "group": "Asian other",
+      "marketStatus": "official",
+      "website": "https://www.sym-global.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Maxsym 400",
+          "cc": 400,
+          "type": "Scooter",
+          "price": null,
+          "source": "https://www.sym-global.com/"
+        },
+        {
+          "name": "Maxsym TL 508",
+          "cc": 508,
+          "type": "Scooter",
+          "price": null,
+          "source": "https://www.sym-global.com/"
+        },
+        {
+          "name": "Joymax 300",
+          "cc": 278,
+          "type": "Scooter",
+          "price": null,
+          "source": "https://www.sym-global.com/"
+        },
+        {
+          "name": "ADX 300",
+          "cc": 278,
+          "type": "Scooter",
+          "price": null,
+          "source": "https://www.sym-global.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.sym-global.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "pgo",
+      "name": "PGO",
+      "nameEn": "PGO",
+      "company": "PGO Scooters",
+      "category": "Asian other",
+      "subCategory": "Asian other",
+      "group": "Asian other",
+      "marketStatus": "official",
+      "website": "https://www.pgo.com.tw/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Tigra 200",
+          "cc": 200,
+          "type": "Scooter",
+          "price": null,
+          "source": "https://www.pgo.com.tw/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.pgo.com.tw/"
+      ],
+      "note": null
+    },
+    {
+      "id": "hyosung",
+      "name": "Hyosung",
+      "nameEn": "Hyosung",
+      "company": "KR Motors Co., Ltd.",
+      "category": "Asian other",
+      "subCategory": "Asian other",
+      "group": "Asian other",
+      "marketStatus": "official",
+      "website": "https://www.krmotors.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "GV650",
+          "cc": 647,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.krmotors.com/"
+        },
+        {
+          "name": "GV300",
+          "cc": 298,
+          "type": "Cruiser",
+          "price": null,
+          "source": "https://www.krmotors.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.krmotors.com/"
+      ],
+      "note": null
+    },
+    {
+      "id": "ural",
+      "name": "Ural",
+      "nameEn": "Ural",
+      "company": "Ural Motorcycles (IMZ-Ural)",
+      "category": "European",
+      "subCategory": "European",
+      "group": "European",
+      "marketStatus": "official",
+      "website": "https://www.imz-ural.com/",
+      "logo": {
+        "file": null,
+        "status": "missing",
+        "source": null,
+        "note": null
+      },
+      "models": [
+        {
+          "name": "Gear Up",
+          "cc": 749,
+          "type": "Other",
+          "price": null,
+          "source": "https://www.imz-ural.com/"
+        },
+        {
+          "name": "cT",
+          "cc": 749,
+          "type": "Other",
+          "price": null,
+          "source": "https://www.imz-ural.com/"
+        }
+      ],
+      "uncertain": [],
+      "sources": [
+        "https://www.imz-ural.com/"
+      ],
+      "note": null
+    }
+  ]
+}
