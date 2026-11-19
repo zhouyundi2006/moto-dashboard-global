@@ -54,12 +54,28 @@ var urlParams=null;
 try{urlParams=new URLSearchParams(location.search)}catch(e){}
 var isFav = function(id){return state.favs.indexOf(id)>=0};
 
-/* SECTION: theme */
+/* SECTION: theme — Auto / Light / Dark; Auto follows the OS and is the default */
 var themeParam=(function(){try{return new URLSearchParams(location.search).get("theme")}catch(e){return null}})();
-var theme = (themeParam==="light"||themeParam==="dark") ? themeParam : (store.get("moto-theme", null) || (window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light":"dark"));
-function applyTheme(t){document.documentElement.dataset.theme=t;$("themeBtn").textContent=t==="dark"?"☾":"☀";store.set("moto-theme",t)}
-applyTheme(theme);
-$("themeBtn").addEventListener("click",function(){applyTheme(document.documentElement.dataset.theme==="dark"?"light":"dark")});
+var mql=window.matchMedia?window.matchMedia("(prefers-color-scheme: light)"):null;
+var themeMode=(themeParam==="light"||themeParam==="dark")?themeParam:(function(){var v=store.get("moto-theme",null);return (v==="light"||v==="dark"||v==="auto")?v:"auto"})();
+function resolvedTheme(mode){return mode==="auto"?((mql&&mql.matches)?"light":"dark"):mode}
+var THEME_NEXT={auto:"light",light:"dark",dark:"auto"};
+function applyTheme(mode,persist){
+  var t=resolvedTheme(mode);document.documentElement.dataset.theme=t;
+  var btn=$("themeBtn");
+  if(btn){btn.textContent=mode==="auto"?"◐":(t==="dark"?"☾":"☀");btn.title="Theme: "+mode+(mode==="auto"?" (follows system)":"")+" · click for "+THEME_NEXT[mode];btn.setAttribute("aria-label","Theme: "+mode)}
+  if(persist!==false)store.set("moto-theme",mode);
+}
+applyTheme(themeMode, themeParam?false:true);
+$("themeBtn").addEventListener("click",function(){
+  themeMode=THEME_NEXT[themeMode];
+  applyTheme(themeMode);
+  toast("Theme: "+themeMode+(themeMode==="auto"?" (follows system)":""));
+});
+if(mql){
+  var onSystemTheme=function(){if(themeMode==="auto")applyTheme("auto",false)};
+  if(mql.addEventListener)mql.addEventListener("change",onSystemTheme);else if(mql.addListener)mql.addListener(onSystemTheme);
+}
 
 /* SECTION: toast */
 var toastTimer=null;

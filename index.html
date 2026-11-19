@@ -28,6 +28,15 @@
   "variableMeasured":["Official list price","Displacement (cc)","Body type","Brand segment","On-sale status"]}
 ]}
 </script>
+<script>
+(function(){try{
+  var p=new URLSearchParams(location.search).get("theme");
+  var raw=localStorage.getItem("moto-theme");var stored=raw?JSON.parse(raw):null;
+  var mode=(p==="light"||p==="dark")?p:((stored==="light"||stored==="dark"||stored==="auto")?stored:"auto");
+  var light=window.matchMedia&&window.matchMedia("(prefers-color-scheme: light)").matches;
+  document.documentElement.dataset.theme=mode==="auto"?(light?"light":"dark"):mode;
+}catch(e){}})();
+</script>
 <style>
 /* SECTION: theme */
 :root{

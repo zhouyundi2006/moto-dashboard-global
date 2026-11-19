@@ -2,7 +2,7 @@
 
 A static board of **39 motorcycle manufacturers worldwide** and their current 200cc+ models: 490 models across Japanese, European, American, other Asian and Chinese export brands. A scope switch in the model browser keeps a comparable **outside-China-only** view (34 brands / 417 models). Cross-filter by segment / displacement band / body type, search with several words, sort by displacement or name, and browse the brand wall, structural rankings, a body-type × displacement matrix and one static page per brand.
 
-The UI follows the same dark industrial template as the China 250cc+ board: light/dark toggle, brand favourites (localStorage), a right-hand brand drawer, bar charts that filter the model browser on click, a body-type × displacement cross-tab, an A-Z index, a garage wall, and a comparison drawer for 2–3 models. Every entry carries a source link back to the manufacturer's own line-up.
+The UI follows the same dark industrial template as the China 250cc+ board: Auto/Light/Dark theme control (Auto follows the OS and is the default), brand favourites (localStorage), a right-hand brand drawer, bar charts that filter the model browser on click, a body-type × displacement cross-tab, an A-Z index, a garage wall, and a comparison drawer for 2–3 models. Every entry carries a source link back to the manufacturer's own line-up.
 
 **Scope decisions**
 
